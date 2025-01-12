@@ -1,0 +1,100 @@
+{
+  "project_info": {
+    "project_number": "1059186875993",
+    "project_id": "uplift-2206e",
+    "storage_bucket": "uplift-2206e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059186875993:android:770b6c58efc119eec59b48",
+        "android_client_info": {
+          "package_name": "com.brocode.uplift"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059186875993-fu5l1q82b4v4ppojmol2h5dkqdskutfn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brocode.uplift",
+            "certificate_hash": "7d2d4d6f180f2dfbf9a738d32974ac063ae31ba6"
+          }
+        },
+        {
+          "client_id": "1059186875993-lbmi2207udoi7o7eqbpt1t5r259nclaj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brocode.uplift",
+            "certificate_hash": "adb79e23f10a1de970b0e03fbcbd727b01989f87"
+          }
+        },
+        {
+          "client_id": "1059186875993-vn7j67lgreb7p9b25sqeu5e4isi14qmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClr8WHK1cUHlyufJp4WISZmKK4BE_8OWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059186875993-vn7j67lgreb7p9b25sqeu5e4isi14qmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059186875993:android:63af27a7e2da9010c59b48",
+        "android_client_info": {
+          "package_name": "com.uplift"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059186875993-2msc8nkjf6uri5cbsu02lf81ngj9d8ms.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uplift",
+            "certificate_hash": "7d2d4d6f180f2dfbf9a738d32974ac063ae31ba6"
+          }
+        },
+        {
+          "client_id": "1059186875993-7hbkekdup2sqit7dl1gritdc9lis0v3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uplift",
+            "certificate_hash": "adb79e23f10a1de970b0e03fbcbd727b01989f87"
+          }
+        },
+        {
+          "client_id": "1059186875993-vn7j67lgreb7p9b25sqeu5e4isi14qmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClr8WHK1cUHlyufJp4WISZmKK4BE_8OWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059186875993-vn7j67lgreb7p9b25sqeu5e4isi14qmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,601 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/a.otf",
+      "sha1": "8cd74f44efddda5a9ed005e904156331f1cbca26"
+    },
+    {
+      "path": "assets/fonts/Aladin-Regular.ttf",
+      "sha1": "d69563b0933fa0b721b1e2726dec6c187891182b"
+    },
+    {
+      "path": "assets/fonts/audiosans700.otf",
+      "sha1": "3bdfef54ed1be3192f8c432c9baa09ac21bee460"
+    },
+    {
+      "path": "assets/fonts/bold.otf",
+      "sha1": "57c10fdcf1588336bb42296c2b32f0ababcb901a"
+    },
+    {
+      "path": "assets/fonts/GeneralSans-Bold.otf",
+      "sha1": "7c66f9cd8c3240fde8504746b849217901adfea1"
+    },
+    {
+      "path": "assets/fonts/GeneralSans-BoldItalic.otf",
+      "sha1": "d3885be3b71de2af7665882d9189ada24f0b3e29"
+    },
+    {
+      "path": "assets/fonts/GeneralSans-Italic.otf",
+      "sha1": "7042c5ffc92d2f1626a4fdb88a07156403a51ecc"
+    },
+    {
+      "path": "assets/fonts/GeneralSans-Light.otf",
+      "sha1": "d86ef28d2bd7c8bc3f37663738e291370da37d27"
+    },
+    {
+      "path": "assets/fonts/GeneralSans-LightItalic.otf",
+      "sha1": "437d21869e0b92ae38814d6661e5c8bf5363f802"
+    },
+    {
+      "path": "assets/fonts/GeneralSans-Medium.otf",
+      "sha1": "90d6eedb55a4df589dcdb4038aa2feecb8c4ef3a"
+    },
+    {
+      "path": "assets/fonts/GeneralSans-Regular.otf",
+      "sha1": "b03745ee5c7610ffcd8b64a4a4ccf28e25ed9759"
+    },
+    {
+      "path": "assets/fonts/GeneralSans-SemiBold.otf",
+      "sha1": "24d398d7f5e7ebc4ba9488552455b79d38e17221"
+    },
+    {
+      "path": "assets/fonts/Lato-Black.ttf",
+      "sha1": "4fa7d5cfe0774c806f6e69bec9ea0dd6923cae26"
+    },
+    {
+      "path": "assets/fonts/Lato-BlackItalic.ttf",
+      "sha1": "0850911e67623786b47300c6d30465427ca383a1"
+    },
+    {
+      "path": "assets/fonts/Lato-Bold.ttf",
+      "sha1": "e87d99a300317fd927c0a512be856b3caf52d61f"
+    },
+    {
+      "path": "assets/fonts/Lato-BoldItalic.ttf",
+      "sha1": "4c725cae1610cb80765cb6ccfb02991beea5419e"
+    },
+    {
+      "path": "assets/fonts/Lato-Italic.ttf",
+      "sha1": "311e8817df07f7aa116c512e8467cf0d25a08e02"
+    },
+    {
+      "path": "assets/fonts/Lato-Light.ttf",
+      "sha1": "1b062f93802e0e9f4b2028ef7556ffe4e5ed8c99"
+    },
+    {
+      "path": "assets/fonts/Lato-LightItalic.ttf",
+      "sha1": "d8c9782e9d43821553982860c534e856adc82ea2"
+    },
+    {
+      "path": "assets/fonts/Lato-Regular.ttf",
+      "sha1": "06775847c3ad5bdc4525009f41aaf585bfcba4c2"
+    },
+    {
+      "path": "assets/fonts/Lato-SemiBold.ttf",
+      "sha1": "bb36d50ddf764b413a5102c56203817e9bf13e98"
+    },
+    {
+      "path": "assets/fonts/Lato-Thin.ttf",
+      "sha1": "410476d9d3eaa16c73bc989e4d4656b32d756585"
+    },
+    {
+      "path": "assets/fonts/Lato-ThinItalic.ttf",
+      "sha1": "6da15aa15828ba990fd2f327fae466e567de1400"
+    },
+    {
+      "path": "assets/fonts/Lora-Bold.otf",
+      "sha1": "1eeb0815ed2893101de09a1f43e9d708d5ec8a5c"
+    },
+    {
+      "path": "assets/fonts/Lora-Italic.otf",
+      "sha1": "d2a0525ab8def3c58a176c023d3b6daa0d356326"
+    },
+    {
+      "path": "assets/fonts/Lora-Medium.otf",
+      "sha1": "930cdc87b3a4d5a41be8ef33583d6fa8971f5242"
+    },
+    {
+      "path": "assets/fonts/Lora-Regular.otf",
+      "sha1": "5cf8e8033a483b8d32e5fa20ec4dd3c053c7ea68"
+    },
+    {
+      "path": "assets/fonts/Lora-SemiBold.otf",
+      "sha1": "84867bcf9566a28b1c16ed7d7748c35514461587"
+    },
+    {
+      "path": "assets/fonts/Roboto-Black.ttf",
+      "sha1": "3f8e401d808f6ce84b542266726514ac8be73171"
+    },
+    {
+      "path": "assets/fonts/Roboto-BlackItalic.ttf",
+      "sha1": "03d6e3747d862385dbe48e8296385b9236101a62"
+    },
+    {
+      "path": "assets/fonts/Roboto-Bold.ttf",
+      "sha1": "62442a18a9fe9457c1afeabf683d263a691b7798"
+    },
+    {
+      "path": "assets/fonts/Roboto-BoldItalic.ttf",
+      "sha1": "2f10ad9e8cab0880182705c4e0fbaeabae706e64"
+    },
+    {
+      "path": "assets/fonts/Roboto-Italic.ttf",
+      "sha1": "65f3f6a7e1bd2fa6f2df35e4b07775d7f1dde4f0"
+    },
+    {
+      "path": "assets/fonts/Roboto-Light.ttf",
+      "sha1": "18788c5d630fa695f9283f6393bfa541b2031508"
+    },
+    {
+      "path": "assets/fonts/Roboto-LightItalic.ttf",
+      "sha1": "6e01f9df9449565697032b002706a94b51862bbe"
+    },
+    {
+      "path": "assets/fonts/Roboto-Medium.ttf",
+      "sha1": "3c6a09fcc6a454924c81af7dff94fc6d399ed79b"
+    },
+    {
+      "path": "assets/fonts/Roboto-Regular.ttf",
+      "sha1": "56c5c0d38bde4c1f1549dda43db37b09c608aad3"
+    },
+    {
+      "path": "assets/fonts/Roboto-Thin.ttf",
+      "sha1": "58c733e22bceeaf9609ce578eca92ac303c6d92f"
+    },
+    {
+      "path": "assets/fonts/Roboto-ThinItalic.ttf",
+      "sha1": "cc79d5a23bd0ec08b1d99f5390bf33cacc3082f4"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DeckNarrowBold-Testing.woff",
+      "sha1": "cd8d7ce8f3dee39f8eb7735825c38b17b0ab4d21"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DeckNarrowBold-Testing.woff2",
+      "sha1": "e199636428f159ea6c5e8df8b52ca5e97bb908d6"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DeckNarrowBoldItalic-Testing.woff",
+      "sha1": "2f6a074bf2a993fbe3c162f2a1d7f64e0684f756"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DeckNarrowBoldItalic-Testing.woff2",
+      "sha1": "0f2cabb9ad14b79b55467476889b7ff9f37652f0"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DeckNarrowItalic-Testing.woff",
+      "sha1": "c52f8009d2f006c2f4fc6868f8c4e0757cd561de"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DeckNarrowItalic-Testing.woff2",
+      "sha1": "53febe1fc5fd3a10f092ccb40258bc7985195d12"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DeckNarrowMedium-Testing.woff",
+      "sha1": "b47dff93016c8ac488793a0bb250e6db9068f825"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DeckNarrowMedium-Testing.woff2",
+      "sha1": "bb298f351e0047cb2816f20c79a623cfba356d11"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DeckNarrowMediumItalic-Testing.woff",
+      "sha1": "11971886a9e6c6d2748636dda6a6a44a8a4ead16"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DeckNarrowMediumItalic-Testing.woff2",
+      "sha1": "d430dc70d07a565e70121e0db4a6156843237fbe"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DeckNarrowRegular-Testing.woff",
+      "sha1": "1aa07a62ef759089dc0b77b73a0731fbbdd265ef"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DeckNarrowRegular-Testing.woff2",
+      "sha1": "378a67eb639b930b3ad1ac234919cd221fdd0e1b"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DeckNarrowSemiBold-Testing.woff",
+      "sha1": "d7d6f8c80256fd5772a5ea201177ac2fdd7d192c"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DeckNarrowSemiBold-Testing.woff2",
+      "sha1": "1616bc386cc07964dd1164f29b00512c682886cd"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DeckNarrowSemiBoldItalic-Testing.woff",
+      "sha1": "4c27fed84a3423d9140d5aa891d5e01522bbf4ae"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DeckNarrowSemiBoldItalic-Testing.woff2",
+      "sha1": "33dfaf7afa47132a8a8e1be7a284c8d8c68f8586"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayBlack-Testing.woff",
+      "sha1": "81d39a5fd184c07cf29144e462db8f6c38d40ead"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayBlack-Testing.woff2",
+      "sha1": "9800fbaef9a7115e604004ec3aa674432766989f"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayBold-Testing.woff",
+      "sha1": "1035eec7e78f1597b6e9d32e8cfd732087ee73c5"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayBold-Testing.woff2",
+      "sha1": "8d6704a18bcabe484b73bd388ffa83810253c561"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedBlack-Testing.woff",
+      "sha1": "2adf8a46b298e1fb23793e45319fb60a4753458d"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedBlack-Testing.woff2",
+      "sha1": "764376a61e814906b2fe856b9bb492ef7d8fb90d"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedBold-Testing.woff",
+      "sha1": "9bdd72ab7bca0d71ab228ae572f47a401b975aea"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedBold-Testing.woff2",
+      "sha1": "c294ddd8ae6310af0d1c14b16880939a5b47fe59"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedBoldItalic-Testing.woff",
+      "sha1": "5dcee447f0bb869590a6c7b413b856ee7f05138c"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedBoldItalic-Testing.woff2",
+      "sha1": "f0247a0f379a7370b17b4ed5d99257f6acc033e9"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedExtraLight-Testing.woff",
+      "sha1": "06746c5108fb70a2f3b3c1aabe58e57ed3d47d7a"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedExtraLight-Testing.woff2",
+      "sha1": "19721d450e57ff513681de94cef56626c6a2039b"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedExtraLightItalic-Testing.woff",
+      "sha1": "cd0bdd243aaa73921c13b2d833adc891bccaafda"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedExtraLightItalic-Testing.woff2",
+      "sha1": "987a20aa4ec4b16560e963dbfbca737efda515cc"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedItalic-Testing.woff",
+      "sha1": "e508c1c2e687be545431d6e7c1e4150fa1bb2a07"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedItalic-Testing.woff2",
+      "sha1": "d3e7bc655512de0c93a478065eb2aa3fd0a91fac"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedLight-Testing.woff",
+      "sha1": "50ef62078e568cb5d74f0f2b72b1cc584d430dd6"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedLight-Testing.woff2",
+      "sha1": "415d9ee63e1e54fee764780779bddcefc61a28c0"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedLightItalic-Testing.woff",
+      "sha1": "c2fe20796235906e1daf69c5aeb7a82f887c96ee"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedLightItalic-Testing.woff2",
+      "sha1": "009d1043f74c873ad12a802b1737dedba4a492f6"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedMedium-Testing.woff",
+      "sha1": "ef91b47b9975e72f1908bc683c1f8812f3e50376"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedMedium-Testing.woff2",
+      "sha1": "5a8673767f0533a8ae9c772db61e573c9dda1b04"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedMediumItalic-Testing.woff",
+      "sha1": "36283e3a1710011c7b4e06275003de6ea1004849"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedMediumItalic-Testing.woff2",
+      "sha1": "c3e5fea7bd5b0d9f674e630837f693877e9aa6a5"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedRegular-Testing.woff",
+      "sha1": "b19652b2d82b0b67b221cfff01e03096add56a09"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedRegular-Testing.woff2",
+      "sha1": "9be40f45f8939710c7915dc7419a415d1dbbe0a4"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedSemiBold-Testing.woff",
+      "sha1": "e81d55faef4f6da18bc267bc48fdcfca7dbb9103"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedSemiBold-Testing.woff2",
+      "sha1": "89d5a4beb7f1cc663607c89f1af8ac1a0ac894a2"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff",
+      "sha1": "ba6f9222dd8ec0443822bd52d918d17a3002341f"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff2",
+      "sha1": "086eaa362f202fe5f40c68f0b8288a39948c704f"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedUltra-Testing.woff",
+      "sha1": "9702fcf241c2d1369f14ad90eb9ee622607292a2"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayCondensedUltra-Testing.woff2",
+      "sha1": "7bc5e65db78d6e53593b2045eb71dbc0b1051ead"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayExtraLight-Testing.woff",
+      "sha1": "53d52597c29512ef06a4403e5849bb1ff384a7e5"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayExtraLight-Testing.woff2",
+      "sha1": "4e4a78490433b84cbc8615e0f93a05120d865361"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayLight-Testing.woff",
+      "sha1": "f940169884d2e83c3326d7a323d1296c7f8069c8"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayLight-Testing.woff2",
+      "sha1": "48fb1656c9e24d98e597f18f20a13d514d41e941"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayMedium-Testing.woff",
+      "sha1": "e2419e96c7ec43e095ea553ecdedb08d51020fee"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayMedium-Testing.woff2",
+      "sha1": "ba3b070438953c930ef30b19d82179c388c23bfb"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayNarrowBlack-Testing.woff",
+      "sha1": "bf2aea17ebe958f47e6c77cb2c2f304cdbf6c748"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayNarrowBlack-Testing.woff2",
+      "sha1": "73a7fbb21770686a678699418bb74167393767d2"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayNarrowBold-Testing.woff",
+      "sha1": "f7264a6dea98a1bf977c3be25ebee795621d57dc"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayNarrowBold-Testing.woff2",
+      "sha1": "bc3a5a3807d50940191180832891efcb428dff57"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayNarrowExtraLight-Testing.woff",
+      "sha1": "aedf4a430d65faf5be0ec5533c814bf299b19980"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayNarrowExtraLight-Testing.woff2",
+      "sha1": "41bb01ec6de3042e408d46da4d90034d2d6a7386"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayNarrowLight-Testing.woff",
+      "sha1": "3c38b44cd39eb3d4e61ce45e901a675afc6e2652"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayNarrowLight-Testing.woff2",
+      "sha1": "43c1d32524d27f13731c383186c5bbec5c0f9bf6"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayNarrowMedium-Testing.woff",
+      "sha1": "93af01c89c3a236051fb9afbe567b7fb2169bfe5"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayNarrowMedium-Testing.woff2",
+      "sha1": "a93402493d4479533ad711b44bdb9a84a4b638c8"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayNarrowRegular-Testing.woff",
+      "sha1": "156cda764957307f11312a08beb99f1902711a32"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayNarrowRegular-Testing.woff2",
+      "sha1": "f75e796aa42f1623da5c603feb44d2ae690052d2"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayNarrowSemiBold-Testing.woff",
+      "sha1": "f54498406b62eccff87632816b24b2b55ca9f520"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayNarrowSemiBold-Testing.woff2",
+      "sha1": "236f6366ba5156bc58aecce85c20cffc6beb7dbb"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayNarrowUltra-Testing.woff",
+      "sha1": "7b05743cc0b5e14acbb353815b21bef8ca1335bd"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayNarrowUltra-Testing.woff2",
+      "sha1": "2a9cdf84ef81d802a9bb8f2a6ceb5c35564df754"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayRegular-Testing.woff",
+      "sha1": "6e1143125513aa75a24117872ef3fded894baffc"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayRegular-Testing.woff2",
+      "sha1": "d5aeb7005b0cf67dda6cd2a17061013a4786aa47"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplaySemiBold-Testing.woff",
+      "sha1": "8ac0080426928d1dccab1301afb946b31edb932c"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplaySemiBold-Testing.woff2",
+      "sha1": "69b39df2b49247eab3fe2f297a28c4a1d00fb9e2"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayUltra-Testing.woff",
+      "sha1": "a3010307c836a3d815b765cd37669ff67441e989"
+    },
+    {
+      "path": "assets/fonts/Roslindale-DisplayUltra-Testing.woff2",
+      "sha1": "b4008ea57a3f474feb4341fb4c72bf270b43dbd9"
+    },
+    {
+      "path": "assets/fonts/Roslindale-TextBold-Testing.woff",
+      "sha1": "10be7658a9bd17344cd4f6eb8df0bc63ea9f5767"
+    },
+    {
+      "path": "assets/fonts/Roslindale-TextBold-Testing.woff2",
+      "sha1": "fc411703e7bb5e5a2e101ed7282bf714f36fa0ed"
+    },
+    {
+      "path": "assets/fonts/Roslindale-TextBoldItalic-Testing.woff",
+      "sha1": "a01e0d310aece70fcdf49dfd1b632e339a3f083d"
+    },
+    {
+      "path": "assets/fonts/Roslindale-TextBoldItalic-Testing.woff2",
+      "sha1": "8732a487c7566cbddc80b9785d58c3b3df985e64"
+    },
+    {
+      "path": "assets/fonts/Roslindale-TextItalic-Testing.woff",
+      "sha1": "d65dd880cadf1c4179fc763bc1e0fc8ab05e9c02"
+    },
+    {
+      "path": "assets/fonts/Roslindale-TextItalic-Testing.woff2",
+      "sha1": "3d9b626de7f772164fe3bbd48da5aac967d0d325"
+    },
+    {
+      "path": "assets/fonts/Roslindale-TextMedium-Testing.woff",
+      "sha1": "7eb6a96786e2a008747c4619631023dd8d01b707"
+    },
+    {
+      "path": "assets/fonts/Roslindale-TextMedium-Testing.woff2",
+      "sha1": "69f37c8b3a589abce6e55cdf97e582dba15f46bd"
+    },
+    {
+      "path": "assets/fonts/Roslindale-TextMediumItalic-Testing.woff",
+      "sha1": "516beedc186ea0613f322af2decd22c04802e80d"
+    },
+    {
+      "path": "assets/fonts/Roslindale-TextMediumItalic-Testing.woff2",
+      "sha1": "04ea064aa1cfdef3bf10ae6aa2c672d4be2a8869"
+    },
+    {
+      "path": "assets/fonts/Roslindale-TextRegular-Testing.woff",
+      "sha1": "ec58a7bf726b0eef35757bfac52b053bf92f390c"
+    },
+    {
+      "path": "assets/fonts/Roslindale-TextRegular-Testing.woff2",
+      "sha1": "ff4041ed93751fbbf0a2690473efe42c43931d47"
+    },
+    {
+      "path": "assets/fonts/Roslindale-TextSemiBold-Testing.woff",
+      "sha1": "38d83af98bf1436a368472c5b4b3fff4538e7845"
+    },
+    {
+      "path": "assets/fonts/Roslindale-TextSemiBold-Testing.woff2",
+      "sha1": "fbbe2091fb14e57b0ddd0df792cfce1c1e636700"
+    },
+    {
+      "path": "assets/fonts/Roslindale-TextSemiBoldItalic-Testing.woff",
+      "sha1": "aad68dbfb4d66d19913a365133836b5ce5cd9423"
+    },
+    {
+      "path": "assets/fonts/Roslindale-TextSemiBoldItalic-Testing.woff2",
+      "sha1": "650be8b9e3400c09be44026a9d6461c84c0b413d"
+    },
+    {
+      "path": "assets/fonts/RoslindaleVariable-VF-Testing.woff",
+      "sha1": "77b196406cd9d14ff3127c37b8e6e5af9d5e7cbc"
+    },
+    {
+      "path": "assets/fonts/RoslindaleVariable-VF-Testing.woff2",
+      "sha1": "de14fa02b8f75f4146968ba29de4966ab0b43340"
+    },
+    {
+      "path": "assets/fonts/RoslindaleVariable-VF[Display]-Testing.woff",
+      "sha1": "30c149e302ad9033bd551079e4d93d8058211af9"
+    },
+    {
+      "path": "assets/fonts/RoslindaleVariable-VF[Display]-Testing.woff2",
+      "sha1": "934b980d9cbcad9c6f1c7215ca468f7b2a43fab2"
+    },
+    {
+      "path": "assets/fonts/Switzer-Black.otf",
+      "sha1": "cadf4c1cd8be1410524165534e85f1d292b1e5a5"
+    },
+    {
+      "path": "assets/fonts/Switzer-BlackItalic.otf",
+      "sha1": "19e7aafc5d95d7e317ace67dead22e22a600063a"
+    },
+    {
+      "path": "assets/fonts/Switzer-Bold.otf",
+      "sha1": "1ba1a677ea140e785856aae36e692d49a07015e8"
+    },
+    {
+      "path": "assets/fonts/Switzer-BoldItalic.otf",
+      "sha1": "16b69f7d5beeb73cf53adf4ec14c3593f4124191"
+    },
+    {
+      "path": "assets/fonts/Switzer-Light.otf",
+      "sha1": "80b7b68e463191eb0790eb018e9db48fdd282d91"
+    },
+    {
+      "path": "assets/fonts/Switzer-Medium.otf",
+      "sha1": "a2c60e07f88b8ce7dc90f57ea7671e54610d8954"
+    },
+    {
+      "path": "assets/fonts/Switzer-MediumItalic.otf",
+      "sha1": "004c11fb9e6f04f47c70a025e37771abdd2041f0"
+    },
+    {
+      "path": "assets/fonts/Switzer-Regular.otf",
+      "sha1": "f0a7eb123220f32bb95d3d2325c8bdcb734aba32"
+    },
+    {
+      "path": "assets/fonts/Switzer-SemiBold.otf",
+      "sha1": "cc42238161dd051e819262cad9037fb80e01904e"
+    },
+    {
+      "path": "assets/fonts/Switzer-Thin.otf",
+      "sha1": "3c86ecee3581643737400e216f7c942fecbdefad"
+    },
+    {
+      "path": "assets/fonts/Switzer-ThinItalic.otf",
+      "sha1": "c67768eeb1ae40bdb913fa1da197e40aade725e3"
+    },
+    {
+      "path": "assets/fonts/Texgyreheros-Bold.otf",
+      "sha1": "41cdf4afc4e8ff9a5dca723f7b0c7f42fffc101b"
+    },
+    {
+      "path": "assets/fonts/Texgyreheros-Italic.otf",
+      "sha1": "9c9f37e051d2858b2c563b4eefa315ca1d9fb71f"
+    },
+    {
+      "path": "assets/fonts/Texgyreheros-Regular.otf",
+      "sha1": "4c36ccba50eb3aee8d0ac96ae910936776f4eb58"
+    }
+  ]
+}

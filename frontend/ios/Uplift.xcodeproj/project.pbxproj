@@ -1,0 +1,1293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* UpliftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* UpliftTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-Uplift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Uplift.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-Uplift-UpliftTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Uplift-UpliftTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		0CD60D58793145E288E8C760 /* a.otf in Resources */ = {isa = PBXBuildFile; fileRef = B9796EA3A264449F82E38D2A /* a.otf */; };
+		E7BC62E4BEA242F09BBFB594 /* audiosans700.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA6D3CCFFF7A46C3B1B24D1F /* audiosans700.otf */; };
+		03F2BC10BC434E51B5486BD7 /* bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10AEF7221DB04D2699DF8A0F /* bold.otf */; };
+		62D53D6A20E14F1881C06C9A /* GeneralSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81E711B0E47C43FA9344AE4D /* GeneralSans-Bold.otf */; };
+		C780991CFD3A489FBC9A0C16 /* GeneralSans-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD7A87F2B0584D1FA992511C /* GeneralSans-BoldItalic.otf */; };
+		EF4493601AE0416697A78A50 /* GeneralSans-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3E4EDFC86E94E898A907834 /* GeneralSans-Italic.otf */; };
+		C888C841FC1F4E0984CA46BF /* GeneralSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5794F2A22E5F4B7C9DEB6A69 /* GeneralSans-Light.otf */; };
+		85C79493459F4DDBB81FA64E /* GeneralSans-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BEEE1B8D047141F0BC29B92B /* GeneralSans-LightItalic.otf */; };
+		A7B0E32B6C924F09A593D874 /* GeneralSans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7526E3AA65F34365B34D027B /* GeneralSans-Medium.otf */; };
+		0842B6815FC74B398BA93323 /* GeneralSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 385509E43F5147C587BAC265 /* GeneralSans-Regular.otf */; };
+		885FCC2160004AF297DBF449 /* GeneralSans-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E737E7093BF241D28B4DD773 /* GeneralSans-SemiBold.otf */; };
+		6B4DBA36C3564F859E5C5A5F /* Lora-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 707C31FAE01D4B6689320450 /* Lora-Bold.otf */; };
+		1FF6751B457043C2A8F35DAA /* Lora-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CC64DD81E964556980709C4 /* Lora-Italic.otf */; };
+		6A670B06BC09444DAD02C0BE /* Lora-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A56F423922045D0B50B3F1E /* Lora-Medium.otf */; };
+		729C50C185AA49FFB24B6382 /* Lora-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CF8B4969D8954538AF9BED93 /* Lora-Regular.otf */; };
+		A1220D4B51F244CE91253AE0 /* Lora-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09FF3BF8E7424C3A9D1B433A /* Lora-SemiBold.otf */; };
+		80C6C898977E4D2E8FBDDD67 /* Switzer-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66BE1718097746A499AF64CA /* Switzer-Black.otf */; };
+		B1E74A66F17D4653A66DCFD4 /* Switzer-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B7A5952DEE54A41A978BE44 /* Switzer-BlackItalic.otf */; };
+		324ACF69316F46718BBB8A97 /* Switzer-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A922B985A4B8D9C3F157C /* Switzer-Bold.otf */; };
+		49150EDF51FF44B8BC6BE003 /* Switzer-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 596ADA233AF545978B7AEEAF /* Switzer-BoldItalic.otf */; };
+		476FA75136CB4B1F959EDCA7 /* Switzer-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7A3B8E1949C46F0840D36FC /* Switzer-Light.otf */; };
+		103175523D384FB0A19AE243 /* Switzer-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDFA781A58DC42AD9FBD68D4 /* Switzer-Medium.otf */; };
+		CE151B0F92F544A6947E7631 /* Switzer-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5ED7E27692D14828B092C119 /* Switzer-MediumItalic.otf */; };
+		CD0FB64E032F4C73AEB2212B /* Switzer-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3737B0645472CBB648728 /* Switzer-Regular.otf */; };
+		D9B38F07BEC140CDB40511B0 /* Switzer-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4786720791824DEBA689B26C /* Switzer-SemiBold.otf */; };
+		33799C9F63AE46F39936316C /* Switzer-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48B7C10E549D47C5AAAB798D /* Switzer-Thin.otf */; };
+		FACB60490B67400EAFBAF97D /* Switzer-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59BDF895685B47EC8F42EF7B /* Switzer-ThinItalic.otf */; };
+		B698E9266DAE43AAB117383E /* Texgyreheros-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 885624DEECD64763B1CC0941 /* Texgyreheros-Bold.otf */; };
+		03B013C6016C4316846597C2 /* Texgyreheros-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 240BC4BDDACB477A920A98AE /* Texgyreheros-Italic.otf */; };
+		EE5DA6F03CF446A2B3A224B2 /* Texgyreheros-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B722D87B02948E890966E36 /* Texgyreheros-Regular.otf */; };
+		3AB2498B6A7040CFA6FECA77 /* Aladin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 753B9402E3FA4140B594A53F /* Aladin-Regular.ttf */; };
+		287893EC993747EBB2C54188 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5132FC49C85841178C8493B4 /* Lato-Black.ttf */; };
+		64BDBA73972B46EFB2178776 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF0DD19AE82B498CBB2C6D7F /* Lato-BlackItalic.ttf */; };
+		E648732DD900416B95BA296E /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97B58CF25A6D43B6AB29465B /* Lato-Bold.ttf */; };
+		0A50EA354A2C4B00B9672544 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95DE8AA32C4E494E807798DC /* Lato-BoldItalic.ttf */; };
+		B3EB83A4235047BEAE6EF97F /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A7F062B6F264C66A917D70E /* Lato-Italic.ttf */; };
+		4700B3F3F1CC489EB6403E6F /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 172416FEEAAD4C32B938A903 /* Lato-Light.ttf */; };
+		14ECC714B56E410889DF8F04 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81035980F33A42D5AB844AA4 /* Lato-LightItalic.ttf */; };
+		D0B38E17B3244AE287A05D71 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22C73127343A4104AC8DBCD8 /* Lato-Regular.ttf */; };
+		E6B482E09D084EE09425D99A /* Lato-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 636AF233430048EE92CD45BB /* Lato-SemiBold.ttf */; };
+		6D85680BAEDF4DCF894154B9 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F45562BF7A764E4BA10E8AC7 /* Lato-Thin.ttf */; };
+		63C88E83F4D440B5970BFE74 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C6C556B24F74CB6A5B12251 /* Lato-ThinItalic.ttf */; };
+		A0B314EDA980413894EEED5A /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC5DDF793C2F4789896BAD8B /* Roboto-Black.ttf */; };
+		EECA53BC704F4F4E813DEEE2 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10FE9AD7E65D4737959301EB /* Roboto-BlackItalic.ttf */; };
+		9AD8F306DD5B4E57934D917F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521FE034CF5C484D8F9760C9 /* Roboto-Bold.ttf */; };
+		7405CFB19BA946439C876ED8 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FCB596B065C43079043AC55 /* Roboto-BoldItalic.ttf */; };
+		079BE5B2B52543868FBA5C60 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3EAE111AC194A77AEC419F3 /* Roboto-Italic.ttf */; };
+		A3259E6CD59645F785485D70 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4690E6B2F57E47C498058319 /* Roboto-Light.ttf */; };
+		69D8FBB70B94469EA1CC4618 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E01BA23077C6464AAA059E2C /* Roboto-LightItalic.ttf */; };
+		2651D4AB33EE49F5A384F644 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CD7E4EDA3684776B56867F6 /* Roboto-Medium.ttf */; };
+		1B907C0A5ACB4400BC69FB39 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 380EFD5FC94F4C19A0900084 /* Roboto-Regular.ttf */; };
+		CBADC2DA773243B8BE8AA5F4 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59563688A1F44EAE91B07388 /* Roboto-Thin.ttf */; };
+		65EAF70B36454F9B869C7A3D /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A78B673F942EB84C433FC /* Roboto-ThinItalic.ttf */; };
+		B897D86EFFEB4C94BD1BF6B1 /* Roslindale-DeckNarrowBold-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = AB6FAA98587E4CA78EDE9287 /* Roslindale-DeckNarrowBold-Testing.woff */; };
+		CA256A855AA5416EA378E81C /* Roslindale-DeckNarrowBold-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 323A306CEBCC4A6FA4C5A417 /* Roslindale-DeckNarrowBold-Testing.woff2 */; };
+		9AE1185758004A57BA9D0FAA /* Roslindale-DeckNarrowBoldItalic-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 74C1ED8582B4477C8B2042E3 /* Roslindale-DeckNarrowBoldItalic-Testing.woff */; };
+		F80DEDF6C2254213B20FA4AF /* Roslindale-DeckNarrowBoldItalic-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 272B6741999A4F9D9FCCB372 /* Roslindale-DeckNarrowBoldItalic-Testing.woff2 */; };
+		4BA0214A3B1C4AD1BE7DFDB8 /* Roslindale-DeckNarrowItalic-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 7F80176D43EA4207872BCD98 /* Roslindale-DeckNarrowItalic-Testing.woff */; };
+		DD2057EFC11544C3A4782A00 /* Roslindale-DeckNarrowItalic-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 84B95D990BBD429798078FE4 /* Roslindale-DeckNarrowItalic-Testing.woff2 */; };
+		9118AFCD53C642D59E7397D9 /* Roslindale-DeckNarrowMedium-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 1A40AE266B4F42C0950AB42A /* Roslindale-DeckNarrowMedium-Testing.woff */; };
+		BA6F2F4614064E74986265F8 /* Roslindale-DeckNarrowMedium-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 79691EE9D3C0459EB66A3EE2 /* Roslindale-DeckNarrowMedium-Testing.woff2 */; };
+		CC6101874CD24CCAAE9F83E3 /* Roslindale-DeckNarrowMediumItalic-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = B7113D586FD94E87AB4AE864 /* Roslindale-DeckNarrowMediumItalic-Testing.woff */; };
+		A977FD5E2EC042788D57F6BB /* Roslindale-DeckNarrowMediumItalic-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 3E60C7D3D1224DB6B7A0D395 /* Roslindale-DeckNarrowMediumItalic-Testing.woff2 */; };
+		3BAD6B53786D44389D1CA358 /* Roslindale-DeckNarrowRegular-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 677346B8017A4D978DB005B5 /* Roslindale-DeckNarrowRegular-Testing.woff */; };
+		615CF3FD2C4342E8A7F4E61C /* Roslindale-DeckNarrowRegular-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = FC9670674E8B4EEEA7DEB335 /* Roslindale-DeckNarrowRegular-Testing.woff2 */; };
+		1764D1C2802C49BBA4039182 /* Roslindale-DeckNarrowSemiBold-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = FD785119BA4746D8AA29C8BE /* Roslindale-DeckNarrowSemiBold-Testing.woff */; };
+		67B5D91BCB6742D19B9934B5 /* Roslindale-DeckNarrowSemiBold-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = E9A59CC2AD8E4336B6E4F92B /* Roslindale-DeckNarrowSemiBold-Testing.woff2 */; };
+		CECD75897DFC46F19F5D6B35 /* Roslindale-DeckNarrowSemiBoldItalic-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = FB0E909944E8457E802FA570 /* Roslindale-DeckNarrowSemiBoldItalic-Testing.woff */; };
+		1A5467F9CA5C4A9FAD1697E6 /* Roslindale-DeckNarrowSemiBoldItalic-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = AA63023F148A4BDBB71721CE /* Roslindale-DeckNarrowSemiBoldItalic-Testing.woff2 */; };
+		924A52E4787D4599B6FAFDF8 /* Roslindale-DisplayBlack-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = AF92C3C502F44C6AAC46F3B9 /* Roslindale-DisplayBlack-Testing.woff */; };
+		75ABDCAE6EDF426787961798 /* Roslindale-DisplayBlack-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B732A07866D545F58457B5CF /* Roslindale-DisplayBlack-Testing.woff2 */; };
+		6EC60EFBFE134D34A8B2B709 /* Roslindale-DisplayBold-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = AA710DCBCB9E476DB405D5BD /* Roslindale-DisplayBold-Testing.woff */; };
+		CEEFA1C9F63F44E68DFF6A4D /* Roslindale-DisplayBold-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 524EABCD77E441B3A2EB0DB0 /* Roslindale-DisplayBold-Testing.woff2 */; };
+		A5ECCE2A38A849AD98798B6D /* Roslindale-DisplayCondensedBlack-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6CBB61B8866046DAA9641034 /* Roslindale-DisplayCondensedBlack-Testing.woff */; };
+		22EB0111131148459508A040 /* Roslindale-DisplayCondensedBlack-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = C29B012418F142E09A6D5F13 /* Roslindale-DisplayCondensedBlack-Testing.woff2 */; };
+		63326A14E98D47CEB3A83FE8 /* Roslindale-DisplayCondensedBold-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = AABF176374954AD3A85B34EA /* Roslindale-DisplayCondensedBold-Testing.woff */; };
+		FAE9D0BB2D664F489631330D /* Roslindale-DisplayCondensedBold-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = C7EEF5B39E214E17BB80C091 /* Roslindale-DisplayCondensedBold-Testing.woff2 */; };
+		7CBAE3403B374EAFAB41CC9B /* Roslindale-DisplayCondensedBoldItalic-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = C519A4FFBAB2401A90878245 /* Roslindale-DisplayCondensedBoldItalic-Testing.woff */; };
+		C6E5BA86D3024E7F88EF6B6E /* Roslindale-DisplayCondensedBoldItalic-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 37CAC3AC3297448981FCE54E /* Roslindale-DisplayCondensedBoldItalic-Testing.woff2 */; };
+		38DBF596A9674384A1C321C8 /* Roslindale-DisplayCondensedExtraLight-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 1E503CDE072F4D968E4A2C3C /* Roslindale-DisplayCondensedExtraLight-Testing.woff */; };
+		87D63F712BF84A5B863E159C /* Roslindale-DisplayCondensedExtraLight-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 83881D465CDD4A7489342B80 /* Roslindale-DisplayCondensedExtraLight-Testing.woff2 */; };
+		8F122A9968474325B41D903F /* Roslindale-DisplayCondensedExtraLightItalic-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = D4035F43F7654A5F9DD71581 /* Roslindale-DisplayCondensedExtraLightItalic-Testing.woff */; };
+		884EA6A38792411480A11F78 /* Roslindale-DisplayCondensedExtraLightItalic-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = C17A385042A444CCBF0CCB76 /* Roslindale-DisplayCondensedExtraLightItalic-Testing.woff2 */; };
+		73ACD05D9B1A41A0B182B24C /* Roslindale-DisplayCondensedItalic-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = FF0FEC36FFD949228991A879 /* Roslindale-DisplayCondensedItalic-Testing.woff */; };
+		4EA8A147CCC942FA972358C7 /* Roslindale-DisplayCondensedItalic-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = E67A5B940B6A4802ABA4B720 /* Roslindale-DisplayCondensedItalic-Testing.woff2 */; };
+		499E7C6EE5F24285A09BC7E1 /* Roslindale-DisplayCondensedLight-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 7B242685F4B84A98B34BCFC4 /* Roslindale-DisplayCondensedLight-Testing.woff */; };
+		ACE8330A05C24C2AB3A125A4 /* Roslindale-DisplayCondensedLight-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BB2AD5D382ED48209925EEEB /* Roslindale-DisplayCondensedLight-Testing.woff2 */; };
+		24EAFE4E004E44FB90562400 /* Roslindale-DisplayCondensedLightItalic-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 87C49406B51D407FB9A507BA /* Roslindale-DisplayCondensedLightItalic-Testing.woff */; };
+		67CD6ECBF0604C9EA48EF6E7 /* Roslindale-DisplayCondensedLightItalic-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B234BB796A5D491D84458BCD /* Roslindale-DisplayCondensedLightItalic-Testing.woff2 */; };
+		5221583FFE414B9BA45266BE /* Roslindale-DisplayCondensedMedium-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = C16EE6349F024292AF3A3018 /* Roslindale-DisplayCondensedMedium-Testing.woff */; };
+		BF2F9E0DB37948E58C650615 /* Roslindale-DisplayCondensedMedium-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = CC8E3D9CD29F4F8A955CE10C /* Roslindale-DisplayCondensedMedium-Testing.woff2 */; };
+		EE542D27954B4961B463F1BB /* Roslindale-DisplayCondensedMediumItalic-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = B08198CBF07A4912B5EF405E /* Roslindale-DisplayCondensedMediumItalic-Testing.woff */; };
+		4C21D853A5EB4D309C894465 /* Roslindale-DisplayCondensedMediumItalic-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A9EE4BB9CA58473CA7D77B4D /* Roslindale-DisplayCondensedMediumItalic-Testing.woff2 */; };
+		E9037AD0A40742A6A97EBE91 /* Roslindale-DisplayCondensedRegular-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 89630AE35FCC4EE499E4BCB8 /* Roslindale-DisplayCondensedRegular-Testing.woff */; };
+		A6255436BB804C68BA92164B /* Roslindale-DisplayCondensedRegular-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = DB57BC3614D8410F8EFB4066 /* Roslindale-DisplayCondensedRegular-Testing.woff2 */; };
+		F0CEE23168084C1996EF988F /* Roslindale-DisplayCondensedSemiBold-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 0F3F883EB1F64C6C808AB573 /* Roslindale-DisplayCondensedSemiBold-Testing.woff */; };
+		1BC054ABB9D248F9AA74A2BD /* Roslindale-DisplayCondensedSemiBold-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 54800FA3F7B14B00BCC2EBF0 /* Roslindale-DisplayCondensedSemiBold-Testing.woff2 */; };
+		A3519A89C621438689751581 /* Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3690D1B370CD4454834803AC /* Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff */; };
+		8BC62F0D937A4F8C898D17F5 /* Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 7B713282B4504561B500BC47 /* Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff2 */; };
+		F9C2599C43C14AC7ACB2E035 /* Roslindale-DisplayCondensedUltra-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 5084CF10A89B4759948473A8 /* Roslindale-DisplayCondensedUltra-Testing.woff */; };
+		48745133163640BB8EA5AC57 /* Roslindale-DisplayCondensedUltra-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 8F4FE675C6D04D2086C98C12 /* Roslindale-DisplayCondensedUltra-Testing.woff2 */; };
+		2BB8505E39CD4339B26EA262 /* Roslindale-DisplayExtraLight-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 5AE3E96F19C14E279402BE6D /* Roslindale-DisplayExtraLight-Testing.woff */; };
+		97F91E9E865E4A53AC99DB2A /* Roslindale-DisplayExtraLight-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = EB2A25B2D0A847D580449D08 /* Roslindale-DisplayExtraLight-Testing.woff2 */; };
+		FEDC211F192349079530152C /* Roslindale-DisplayLight-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = F29D49CD6FA248E299FC0E54 /* Roslindale-DisplayLight-Testing.woff */; };
+		F051D96D70574A4F8FC5876F /* Roslindale-DisplayLight-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 0189B81245D24DAABC401F81 /* Roslindale-DisplayLight-Testing.woff2 */; };
+		560A9EB7EA834DB8859A69D9 /* Roslindale-DisplayMedium-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = F8BE51A8472B4560BFF9D7B2 /* Roslindale-DisplayMedium-Testing.woff */; };
+		B4FBFF3D67B348FF91ACFC35 /* Roslindale-DisplayMedium-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 374EF4D31B594AFCA2ABED31 /* Roslindale-DisplayMedium-Testing.woff2 */; };
+		B555B22D76334A5C88EDC8BD /* Roslindale-DisplayNarrowBlack-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 73B1147990484C20A2B19F74 /* Roslindale-DisplayNarrowBlack-Testing.woff */; };
+		AFEF57CD85844EE99BBA4763 /* Roslindale-DisplayNarrowBlack-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 3F75A89134254C54AF05BCAA /* Roslindale-DisplayNarrowBlack-Testing.woff2 */; };
+		633220FC82EF4123AE8F03B9 /* Roslindale-DisplayNarrowBold-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 8A43C322074C4A25AF51336B /* Roslindale-DisplayNarrowBold-Testing.woff */; };
+		068A5E4F14F3413EA9FB55DB /* Roslindale-DisplayNarrowBold-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 8883F60EE7A14127A41E640E /* Roslindale-DisplayNarrowBold-Testing.woff2 */; };
+		4F80F53ED597491698E69962 /* Roslindale-DisplayNarrowExtraLight-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 49735B563C91443993E18B9C /* Roslindale-DisplayNarrowExtraLight-Testing.woff */; };
+		4062ED2D060741D394B149EC /* Roslindale-DisplayNarrowExtraLight-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 4E29DDDA3FFA4E6BB90E1C9D /* Roslindale-DisplayNarrowExtraLight-Testing.woff2 */; };
+		F012893118EF4BEEA7B494B5 /* Roslindale-DisplayNarrowLight-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = BE53625D970F4D75BE8B4320 /* Roslindale-DisplayNarrowLight-Testing.woff */; };
+		50008BDD60C44D95A8CFA464 /* Roslindale-DisplayNarrowLight-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 54987E6292524BE98E4B50F5 /* Roslindale-DisplayNarrowLight-Testing.woff2 */; };
+		E633F5566DD349BAB9B3890B /* Roslindale-DisplayNarrowMedium-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = FC770884C52C4F6B8CADD6E2 /* Roslindale-DisplayNarrowMedium-Testing.woff */; };
+		8E6A9D07A5EB4CF9A001A40C /* Roslindale-DisplayNarrowMedium-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A701EE90675D417E8D8D5AD0 /* Roslindale-DisplayNarrowMedium-Testing.woff2 */; };
+		FD067680AD7F4CF9BD934514 /* Roslindale-DisplayNarrowRegular-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 8009884085CE4A479EFDD56F /* Roslindale-DisplayNarrowRegular-Testing.woff */; };
+		ED1A65D951DF4EAD8030F9AD /* Roslindale-DisplayNarrowRegular-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = C3EB66B0A22B47679F6905FC /* Roslindale-DisplayNarrowRegular-Testing.woff2 */; };
+		A51A7C8F7581476D9E00914A /* Roslindale-DisplayNarrowSemiBold-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6B521977DA104E8390E3F330 /* Roslindale-DisplayNarrowSemiBold-Testing.woff */; };
+		EF7A60F1DD974A588CD0E8D0 /* Roslindale-DisplayNarrowSemiBold-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A8872A69727441179C69688B /* Roslindale-DisplayNarrowSemiBold-Testing.woff2 */; };
+		DC7B0B5730C3457DB32AB727 /* Roslindale-DisplayNarrowUltra-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 2B9BC787A47E49B2B8ADB97E /* Roslindale-DisplayNarrowUltra-Testing.woff */; };
+		E6D9E7A8209B4062A3484B61 /* Roslindale-DisplayNarrowUltra-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A7693D047CA34066B2B1C593 /* Roslindale-DisplayNarrowUltra-Testing.woff2 */; };
+		E14CA7F7E2434BF09EF813AF /* Roslindale-DisplayRegular-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = A2BE104B48074E43862F0A41 /* Roslindale-DisplayRegular-Testing.woff */; };
+		5E2FD7C845BB4CCABAF1B94D /* Roslindale-DisplayRegular-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A22E798842084F8986675FA7 /* Roslindale-DisplayRegular-Testing.woff2 */; };
+		42FCB91FF7CE4082BB04D9C6 /* Roslindale-DisplaySemiBold-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = FC160237D0CB49E3A3A99616 /* Roslindale-DisplaySemiBold-Testing.woff */; };
+		B771040AE6AC4743B95A56DD /* Roslindale-DisplaySemiBold-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 4FF0A6DB1F3B4BF7B0A59FEF /* Roslindale-DisplaySemiBold-Testing.woff2 */; };
+		299D84E3123544ACBD75CA19 /* Roslindale-DisplayUltra-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = C04396F64B82442CA2804E54 /* Roslindale-DisplayUltra-Testing.woff */; };
+		055CFAE3EE1B4C57A2053CC1 /* Roslindale-DisplayUltra-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 9A7C7529B0D64851A6A70AE1 /* Roslindale-DisplayUltra-Testing.woff2 */; };
+		5F6621F62A3144EE900AF647 /* Roslindale-TextBold-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 9089055FCDB44C11B21FF613 /* Roslindale-TextBold-Testing.woff */; };
+		0C96E3CD99384C9DAAB239D8 /* Roslindale-TextBold-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = CDE49794437D4C45A72EF2C0 /* Roslindale-TextBold-Testing.woff2 */; };
+		C16ECB343A7945EE96881D00 /* Roslindale-TextBoldItalic-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 64596B0BE67B46B6932A4FFB /* Roslindale-TextBoldItalic-Testing.woff */; };
+		261CDFCE302E4DC7A1A17E4A /* Roslindale-TextBoldItalic-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 510B04F9C36043448FE8AA99 /* Roslindale-TextBoldItalic-Testing.woff2 */; };
+		3AA483E29C5B41A2A282601F /* Roslindale-TextItalic-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 5B758B3607A64F338FA38053 /* Roslindale-TextItalic-Testing.woff */; };
+		036B0EB05D4E4986BCEB6259 /* Roslindale-TextItalic-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A874004B8E3345D1A69F477A /* Roslindale-TextItalic-Testing.woff2 */; };
+		C00F52A2D1914BD493F3DB51 /* Roslindale-TextMedium-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = FBA2D979B00846D6BDF24C1A /* Roslindale-TextMedium-Testing.woff */; };
+		6D75A63BF07843EC994C7EC5 /* Roslindale-TextMedium-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = D9DDA4B71DAF446B9ECD6FDC /* Roslindale-TextMedium-Testing.woff2 */; };
+		ED8246B26C2C41FB8A98636C /* Roslindale-TextMediumItalic-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 4037DCD88B3B48C09BB5EAA2 /* Roslindale-TextMediumItalic-Testing.woff */; };
+		5F06BF23E3FB43E1BF31EEDB /* Roslindale-TextMediumItalic-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 3801D87164F94D0F9E4F8C25 /* Roslindale-TextMediumItalic-Testing.woff2 */; };
+		6ABD7160D8E94656BCC1D7BA /* Roslindale-TextRegular-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 9CC4E8077CEB4EC5AAB41E4A /* Roslindale-TextRegular-Testing.woff */; };
+		2349F1BFF2DF442EA328AC17 /* Roslindale-TextRegular-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 139E84D739F34C35A5060731 /* Roslindale-TextRegular-Testing.woff2 */; };
+		C22BCA2778F24D80882F17A5 /* Roslindale-TextSemiBold-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 1F31DC966B58416A97281CC3 /* Roslindale-TextSemiBold-Testing.woff */; };
+		E6D7679D19D04FFAB838EEC4 /* Roslindale-TextSemiBold-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 84B1FA44CB244336B4ABC60F /* Roslindale-TextSemiBold-Testing.woff2 */; };
+		F078F9D8B90B46C28D59E2F4 /* Roslindale-TextSemiBoldItalic-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C7B3488F448F6BB054BA7 /* Roslindale-TextSemiBoldItalic-Testing.woff */; };
+		A0FCD572A4AE412D9467F829 /* Roslindale-TextSemiBoldItalic-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 031B53A3B23E47C8A52BAE8A /* Roslindale-TextSemiBoldItalic-Testing.woff2 */; };
+		A5B076A63D3D43598ECA81FF /* RoslindaleVariable-VF-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = 524C84C85A22471E88E398B6 /* RoslindaleVariable-VF-Testing.woff */; };
+		F8F3D6BDABF74356A65F7F15 /* RoslindaleVariable-VF-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5358A04AD8C2459AAC551EA1 /* RoslindaleVariable-VF-Testing.woff2 */; };
+		0F9E287657DB48FEA5A9E6F7 /* RoslindaleVariable-VF[Display]-Testing.woff in Resources */ = {isa = PBXBuildFile; fileRef = F2B0A11E0B474305906C1E97 /* RoslindaleVariable-VF[Display]-Testing.woff */; };
+		C6102A8238EC4233AC64A43C /* RoslindaleVariable-VF[Display]-Testing.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 33AEA74EEEF24A7FA2DA4397 /* RoslindaleVariable-VF[Display]-Testing.woff2 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Uplift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* UpliftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpliftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* UpliftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpliftTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Uplift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uplift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Uplift/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Uplift/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Uplift/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Uplift/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Uplift/main.m; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Uplift/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Uplift-UpliftTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Uplift-UpliftTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-Uplift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uplift.debug.xcconfig"; path = "Target Support Files/Pods-Uplift/Pods-Uplift.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-Uplift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uplift.release.xcconfig"; path = "Target Support Files/Pods-Uplift/Pods-Uplift.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-Uplift-UpliftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uplift-UpliftTests.debug.xcconfig"; path = "Target Support Files/Pods-Uplift-UpliftTests/Pods-Uplift-UpliftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-Uplift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Uplift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Uplift/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-Uplift-UpliftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uplift-UpliftTests.release.xcconfig"; path = "Target Support Files/Pods-Uplift-UpliftTests/Pods-Uplift-UpliftTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		B9796EA3A264449F82E38D2A /* a.otf */ = {isa = PBXFileReference; name = "a.otf"; path = "../assets/fonts/a.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DA6D3CCFFF7A46C3B1B24D1F /* audiosans700.otf */ = {isa = PBXFileReference; name = "audiosans700.otf"; path = "../assets/fonts/audiosans700.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		10AEF7221DB04D2699DF8A0F /* bold.otf */ = {isa = PBXFileReference; name = "bold.otf"; path = "../assets/fonts/bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		81E711B0E47C43FA9344AE4D /* GeneralSans-Bold.otf */ = {isa = PBXFileReference; name = "GeneralSans-Bold.otf"; path = "../assets/fonts/GeneralSans-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CD7A87F2B0584D1FA992511C /* GeneralSans-BoldItalic.otf */ = {isa = PBXFileReference; name = "GeneralSans-BoldItalic.otf"; path = "../assets/fonts/GeneralSans-BoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B3E4EDFC86E94E898A907834 /* GeneralSans-Italic.otf */ = {isa = PBXFileReference; name = "GeneralSans-Italic.otf"; path = "../assets/fonts/GeneralSans-Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5794F2A22E5F4B7C9DEB6A69 /* GeneralSans-Light.otf */ = {isa = PBXFileReference; name = "GeneralSans-Light.otf"; path = "../assets/fonts/GeneralSans-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BEEE1B8D047141F0BC29B92B /* GeneralSans-LightItalic.otf */ = {isa = PBXFileReference; name = "GeneralSans-LightItalic.otf"; path = "../assets/fonts/GeneralSans-LightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7526E3AA65F34365B34D027B /* GeneralSans-Medium.otf */ = {isa = PBXFileReference; name = "GeneralSans-Medium.otf"; path = "../assets/fonts/GeneralSans-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		385509E43F5147C587BAC265 /* GeneralSans-Regular.otf */ = {isa = PBXFileReference; name = "GeneralSans-Regular.otf"; path = "../assets/fonts/GeneralSans-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E737E7093BF241D28B4DD773 /* GeneralSans-SemiBold.otf */ = {isa = PBXFileReference; name = "GeneralSans-SemiBold.otf"; path = "../assets/fonts/GeneralSans-SemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		707C31FAE01D4B6689320450 /* Lora-Bold.otf */ = {isa = PBXFileReference; name = "Lora-Bold.otf"; path = "../assets/fonts/Lora-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2CC64DD81E964556980709C4 /* Lora-Italic.otf */ = {isa = PBXFileReference; name = "Lora-Italic.otf"; path = "../assets/fonts/Lora-Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A56F423922045D0B50B3F1E /* Lora-Medium.otf */ = {isa = PBXFileReference; name = "Lora-Medium.otf"; path = "../assets/fonts/Lora-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CF8B4969D8954538AF9BED93 /* Lora-Regular.otf */ = {isa = PBXFileReference; name = "Lora-Regular.otf"; path = "../assets/fonts/Lora-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		09FF3BF8E7424C3A9D1B433A /* Lora-SemiBold.otf */ = {isa = PBXFileReference; name = "Lora-SemiBold.otf"; path = "../assets/fonts/Lora-SemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		66BE1718097746A499AF64CA /* Switzer-Black.otf */ = {isa = PBXFileReference; name = "Switzer-Black.otf"; path = "../assets/fonts/Switzer-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1B7A5952DEE54A41A978BE44 /* Switzer-BlackItalic.otf */ = {isa = PBXFileReference; name = "Switzer-BlackItalic.otf"; path = "../assets/fonts/Switzer-BlackItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4F7A922B985A4B8D9C3F157C /* Switzer-Bold.otf */ = {isa = PBXFileReference; name = "Switzer-Bold.otf"; path = "../assets/fonts/Switzer-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		596ADA233AF545978B7AEEAF /* Switzer-BoldItalic.otf */ = {isa = PBXFileReference; name = "Switzer-BoldItalic.otf"; path = "../assets/fonts/Switzer-BoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E7A3B8E1949C46F0840D36FC /* Switzer-Light.otf */ = {isa = PBXFileReference; name = "Switzer-Light.otf"; path = "../assets/fonts/Switzer-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DDFA781A58DC42AD9FBD68D4 /* Switzer-Medium.otf */ = {isa = PBXFileReference; name = "Switzer-Medium.otf"; path = "../assets/fonts/Switzer-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5ED7E27692D14828B092C119 /* Switzer-MediumItalic.otf */ = {isa = PBXFileReference; name = "Switzer-MediumItalic.otf"; path = "../assets/fonts/Switzer-MediumItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2EF3737B0645472CBB648728 /* Switzer-Regular.otf */ = {isa = PBXFileReference; name = "Switzer-Regular.otf"; path = "../assets/fonts/Switzer-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4786720791824DEBA689B26C /* Switzer-SemiBold.otf */ = {isa = PBXFileReference; name = "Switzer-SemiBold.otf"; path = "../assets/fonts/Switzer-SemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		48B7C10E549D47C5AAAB798D /* Switzer-Thin.otf */ = {isa = PBXFileReference; name = "Switzer-Thin.otf"; path = "../assets/fonts/Switzer-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		59BDF895685B47EC8F42EF7B /* Switzer-ThinItalic.otf */ = {isa = PBXFileReference; name = "Switzer-ThinItalic.otf"; path = "../assets/fonts/Switzer-ThinItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		885624DEECD64763B1CC0941 /* Texgyreheros-Bold.otf */ = {isa = PBXFileReference; name = "Texgyreheros-Bold.otf"; path = "../assets/fonts/Texgyreheros-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		240BC4BDDACB477A920A98AE /* Texgyreheros-Italic.otf */ = {isa = PBXFileReference; name = "Texgyreheros-Italic.otf"; path = "../assets/fonts/Texgyreheros-Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7B722D87B02948E890966E36 /* Texgyreheros-Regular.otf */ = {isa = PBXFileReference; name = "Texgyreheros-Regular.otf"; path = "../assets/fonts/Texgyreheros-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		753B9402E3FA4140B594A53F /* Aladin-Regular.ttf */ = {isa = PBXFileReference; name = "Aladin-Regular.ttf"; path = "../assets/fonts/Aladin-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5132FC49C85841178C8493B4 /* Lato-Black.ttf */ = {isa = PBXFileReference; name = "Lato-Black.ttf"; path = "../assets/fonts/Lato-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DF0DD19AE82B498CBB2C6D7F /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Lato-BlackItalic.ttf"; path = "../assets/fonts/Lato-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		97B58CF25A6D43B6AB29465B /* Lato-Bold.ttf */ = {isa = PBXFileReference; name = "Lato-Bold.ttf"; path = "../assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		95DE8AA32C4E494E807798DC /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Lato-BoldItalic.ttf"; path = "../assets/fonts/Lato-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4A7F062B6F264C66A917D70E /* Lato-Italic.ttf */ = {isa = PBXFileReference; name = "Lato-Italic.ttf"; path = "../assets/fonts/Lato-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		172416FEEAAD4C32B938A903 /* Lato-Light.ttf */ = {isa = PBXFileReference; name = "Lato-Light.ttf"; path = "../assets/fonts/Lato-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		81035980F33A42D5AB844AA4 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; name = "Lato-LightItalic.ttf"; path = "../assets/fonts/Lato-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		22C73127343A4104AC8DBCD8 /* Lato-Regular.ttf */ = {isa = PBXFileReference; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		636AF233430048EE92CD45BB /* Lato-SemiBold.ttf */ = {isa = PBXFileReference; name = "Lato-SemiBold.ttf"; path = "../assets/fonts/Lato-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F45562BF7A764E4BA10E8AC7 /* Lato-Thin.ttf */ = {isa = PBXFileReference; name = "Lato-Thin.ttf"; path = "../assets/fonts/Lato-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C6C556B24F74CB6A5B12251 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Lato-ThinItalic.ttf"; path = "../assets/fonts/Lato-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC5DDF793C2F4789896BAD8B /* Roboto-Black.ttf */ = {isa = PBXFileReference; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		10FE9AD7E65D4737959301EB /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		521FE034CF5C484D8F9760C9 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8FCB596B065C43079043AC55 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3EAE111AC194A77AEC419F3 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4690E6B2F57E47C498058319 /* Roboto-Light.ttf */ = {isa = PBXFileReference; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E01BA23077C6464AAA059E2C /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4CD7E4EDA3684776B56867F6 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		380EFD5FC94F4C19A0900084 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		59563688A1F44EAE91B07388 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6D5A78B673F942EB84C433FC /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AB6FAA98587E4CA78EDE9287 /* Roslindale-DeckNarrowBold-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DeckNarrowBold-Testing.woff"; path = "../assets/fonts/Roslindale-DeckNarrowBold-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		323A306CEBCC4A6FA4C5A417 /* Roslindale-DeckNarrowBold-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DeckNarrowBold-Testing.woff2"; path = "../assets/fonts/Roslindale-DeckNarrowBold-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		74C1ED8582B4477C8B2042E3 /* Roslindale-DeckNarrowBoldItalic-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DeckNarrowBoldItalic-Testing.woff"; path = "../assets/fonts/Roslindale-DeckNarrowBoldItalic-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		272B6741999A4F9D9FCCB372 /* Roslindale-DeckNarrowBoldItalic-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DeckNarrowBoldItalic-Testing.woff2"; path = "../assets/fonts/Roslindale-DeckNarrowBoldItalic-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7F80176D43EA4207872BCD98 /* Roslindale-DeckNarrowItalic-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DeckNarrowItalic-Testing.woff"; path = "../assets/fonts/Roslindale-DeckNarrowItalic-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		84B95D990BBD429798078FE4 /* Roslindale-DeckNarrowItalic-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DeckNarrowItalic-Testing.woff2"; path = "../assets/fonts/Roslindale-DeckNarrowItalic-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1A40AE266B4F42C0950AB42A /* Roslindale-DeckNarrowMedium-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DeckNarrowMedium-Testing.woff"; path = "../assets/fonts/Roslindale-DeckNarrowMedium-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		79691EE9D3C0459EB66A3EE2 /* Roslindale-DeckNarrowMedium-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DeckNarrowMedium-Testing.woff2"; path = "../assets/fonts/Roslindale-DeckNarrowMedium-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B7113D586FD94E87AB4AE864 /* Roslindale-DeckNarrowMediumItalic-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DeckNarrowMediumItalic-Testing.woff"; path = "../assets/fonts/Roslindale-DeckNarrowMediumItalic-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3E60C7D3D1224DB6B7A0D395 /* Roslindale-DeckNarrowMediumItalic-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DeckNarrowMediumItalic-Testing.woff2"; path = "../assets/fonts/Roslindale-DeckNarrowMediumItalic-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		677346B8017A4D978DB005B5 /* Roslindale-DeckNarrowRegular-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DeckNarrowRegular-Testing.woff"; path = "../assets/fonts/Roslindale-DeckNarrowRegular-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FC9670674E8B4EEEA7DEB335 /* Roslindale-DeckNarrowRegular-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DeckNarrowRegular-Testing.woff2"; path = "../assets/fonts/Roslindale-DeckNarrowRegular-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FD785119BA4746D8AA29C8BE /* Roslindale-DeckNarrowSemiBold-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DeckNarrowSemiBold-Testing.woff"; path = "../assets/fonts/Roslindale-DeckNarrowSemiBold-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E9A59CC2AD8E4336B6E4F92B /* Roslindale-DeckNarrowSemiBold-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DeckNarrowSemiBold-Testing.woff2"; path = "../assets/fonts/Roslindale-DeckNarrowSemiBold-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB0E909944E8457E802FA570 /* Roslindale-DeckNarrowSemiBoldItalic-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DeckNarrowSemiBoldItalic-Testing.woff"; path = "../assets/fonts/Roslindale-DeckNarrowSemiBoldItalic-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AA63023F148A4BDBB71721CE /* Roslindale-DeckNarrowSemiBoldItalic-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DeckNarrowSemiBoldItalic-Testing.woff2"; path = "../assets/fonts/Roslindale-DeckNarrowSemiBoldItalic-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AF92C3C502F44C6AAC46F3B9 /* Roslindale-DisplayBlack-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayBlack-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayBlack-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B732A07866D545F58457B5CF /* Roslindale-DisplayBlack-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayBlack-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayBlack-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AA710DCBCB9E476DB405D5BD /* Roslindale-DisplayBold-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayBold-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayBold-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		524EABCD77E441B3A2EB0DB0 /* Roslindale-DisplayBold-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayBold-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayBold-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6CBB61B8866046DAA9641034 /* Roslindale-DisplayCondensedBlack-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedBlack-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayCondensedBlack-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C29B012418F142E09A6D5F13 /* Roslindale-DisplayCondensedBlack-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedBlack-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayCondensedBlack-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AABF176374954AD3A85B34EA /* Roslindale-DisplayCondensedBold-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedBold-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayCondensedBold-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C7EEF5B39E214E17BB80C091 /* Roslindale-DisplayCondensedBold-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedBold-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayCondensedBold-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C519A4FFBAB2401A90878245 /* Roslindale-DisplayCondensedBoldItalic-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedBoldItalic-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayCondensedBoldItalic-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		37CAC3AC3297448981FCE54E /* Roslindale-DisplayCondensedBoldItalic-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedBoldItalic-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayCondensedBoldItalic-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1E503CDE072F4D968E4A2C3C /* Roslindale-DisplayCondensedExtraLight-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedExtraLight-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayCondensedExtraLight-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		83881D465CDD4A7489342B80 /* Roslindale-DisplayCondensedExtraLight-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedExtraLight-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayCondensedExtraLight-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D4035F43F7654A5F9DD71581 /* Roslindale-DisplayCondensedExtraLightItalic-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedExtraLightItalic-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayCondensedExtraLightItalic-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C17A385042A444CCBF0CCB76 /* Roslindale-DisplayCondensedExtraLightItalic-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedExtraLightItalic-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayCondensedExtraLightItalic-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FF0FEC36FFD949228991A879 /* Roslindale-DisplayCondensedItalic-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedItalic-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayCondensedItalic-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E67A5B940B6A4802ABA4B720 /* Roslindale-DisplayCondensedItalic-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedItalic-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayCondensedItalic-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7B242685F4B84A98B34BCFC4 /* Roslindale-DisplayCondensedLight-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedLight-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayCondensedLight-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BB2AD5D382ED48209925EEEB /* Roslindale-DisplayCondensedLight-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedLight-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayCondensedLight-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		87C49406B51D407FB9A507BA /* Roslindale-DisplayCondensedLightItalic-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedLightItalic-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayCondensedLightItalic-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B234BB796A5D491D84458BCD /* Roslindale-DisplayCondensedLightItalic-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedLightItalic-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayCondensedLightItalic-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C16EE6349F024292AF3A3018 /* Roslindale-DisplayCondensedMedium-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedMedium-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayCondensedMedium-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC8E3D9CD29F4F8A955CE10C /* Roslindale-DisplayCondensedMedium-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedMedium-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayCondensedMedium-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B08198CBF07A4912B5EF405E /* Roslindale-DisplayCondensedMediumItalic-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedMediumItalic-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayCondensedMediumItalic-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A9EE4BB9CA58473CA7D77B4D /* Roslindale-DisplayCondensedMediumItalic-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedMediumItalic-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayCondensedMediumItalic-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		89630AE35FCC4EE499E4BCB8 /* Roslindale-DisplayCondensedRegular-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedRegular-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayCondensedRegular-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB57BC3614D8410F8EFB4066 /* Roslindale-DisplayCondensedRegular-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedRegular-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayCondensedRegular-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F3F883EB1F64C6C808AB573 /* Roslindale-DisplayCondensedSemiBold-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedSemiBold-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayCondensedSemiBold-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		54800FA3F7B14B00BCC2EBF0 /* Roslindale-DisplayCondensedSemiBold-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedSemiBold-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayCondensedSemiBold-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3690D1B370CD4454834803AC /* Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7B713282B4504561B500BC47 /* Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5084CF10A89B4759948473A8 /* Roslindale-DisplayCondensedUltra-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedUltra-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayCondensedUltra-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8F4FE675C6D04D2086C98C12 /* Roslindale-DisplayCondensedUltra-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayCondensedUltra-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayCondensedUltra-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5AE3E96F19C14E279402BE6D /* Roslindale-DisplayExtraLight-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayExtraLight-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayExtraLight-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EB2A25B2D0A847D580449D08 /* Roslindale-DisplayExtraLight-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayExtraLight-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayExtraLight-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F29D49CD6FA248E299FC0E54 /* Roslindale-DisplayLight-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayLight-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayLight-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0189B81245D24DAABC401F81 /* Roslindale-DisplayLight-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayLight-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayLight-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F8BE51A8472B4560BFF9D7B2 /* Roslindale-DisplayMedium-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayMedium-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayMedium-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		374EF4D31B594AFCA2ABED31 /* Roslindale-DisplayMedium-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayMedium-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayMedium-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		73B1147990484C20A2B19F74 /* Roslindale-DisplayNarrowBlack-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayNarrowBlack-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayNarrowBlack-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3F75A89134254C54AF05BCAA /* Roslindale-DisplayNarrowBlack-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayNarrowBlack-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayNarrowBlack-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A43C322074C4A25AF51336B /* Roslindale-DisplayNarrowBold-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayNarrowBold-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayNarrowBold-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8883F60EE7A14127A41E640E /* Roslindale-DisplayNarrowBold-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayNarrowBold-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayNarrowBold-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		49735B563C91443993E18B9C /* Roslindale-DisplayNarrowExtraLight-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayNarrowExtraLight-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayNarrowExtraLight-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4E29DDDA3FFA4E6BB90E1C9D /* Roslindale-DisplayNarrowExtraLight-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayNarrowExtraLight-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayNarrowExtraLight-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BE53625D970F4D75BE8B4320 /* Roslindale-DisplayNarrowLight-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayNarrowLight-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayNarrowLight-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		54987E6292524BE98E4B50F5 /* Roslindale-DisplayNarrowLight-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayNarrowLight-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayNarrowLight-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FC770884C52C4F6B8CADD6E2 /* Roslindale-DisplayNarrowMedium-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayNarrowMedium-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayNarrowMedium-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A701EE90675D417E8D8D5AD0 /* Roslindale-DisplayNarrowMedium-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayNarrowMedium-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayNarrowMedium-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8009884085CE4A479EFDD56F /* Roslindale-DisplayNarrowRegular-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayNarrowRegular-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayNarrowRegular-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C3EB66B0A22B47679F6905FC /* Roslindale-DisplayNarrowRegular-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayNarrowRegular-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayNarrowRegular-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6B521977DA104E8390E3F330 /* Roslindale-DisplayNarrowSemiBold-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayNarrowSemiBold-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayNarrowSemiBold-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A8872A69727441179C69688B /* Roslindale-DisplayNarrowSemiBold-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayNarrowSemiBold-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayNarrowSemiBold-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2B9BC787A47E49B2B8ADB97E /* Roslindale-DisplayNarrowUltra-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayNarrowUltra-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayNarrowUltra-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A7693D047CA34066B2B1C593 /* Roslindale-DisplayNarrowUltra-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayNarrowUltra-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayNarrowUltra-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A2BE104B48074E43862F0A41 /* Roslindale-DisplayRegular-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayRegular-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayRegular-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A22E798842084F8986675FA7 /* Roslindale-DisplayRegular-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayRegular-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayRegular-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FC160237D0CB49E3A3A99616 /* Roslindale-DisplaySemiBold-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplaySemiBold-Testing.woff"; path = "../assets/fonts/Roslindale-DisplaySemiBold-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4FF0A6DB1F3B4BF7B0A59FEF /* Roslindale-DisplaySemiBold-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplaySemiBold-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplaySemiBold-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C04396F64B82442CA2804E54 /* Roslindale-DisplayUltra-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-DisplayUltra-Testing.woff"; path = "../assets/fonts/Roslindale-DisplayUltra-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9A7C7529B0D64851A6A70AE1 /* Roslindale-DisplayUltra-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-DisplayUltra-Testing.woff2"; path = "../assets/fonts/Roslindale-DisplayUltra-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9089055FCDB44C11B21FF613 /* Roslindale-TextBold-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-TextBold-Testing.woff"; path = "../assets/fonts/Roslindale-TextBold-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CDE49794437D4C45A72EF2C0 /* Roslindale-TextBold-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-TextBold-Testing.woff2"; path = "../assets/fonts/Roslindale-TextBold-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		64596B0BE67B46B6932A4FFB /* Roslindale-TextBoldItalic-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-TextBoldItalic-Testing.woff"; path = "../assets/fonts/Roslindale-TextBoldItalic-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		510B04F9C36043448FE8AA99 /* Roslindale-TextBoldItalic-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-TextBoldItalic-Testing.woff2"; path = "../assets/fonts/Roslindale-TextBoldItalic-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5B758B3607A64F338FA38053 /* Roslindale-TextItalic-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-TextItalic-Testing.woff"; path = "../assets/fonts/Roslindale-TextItalic-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A874004B8E3345D1A69F477A /* Roslindale-TextItalic-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-TextItalic-Testing.woff2"; path = "../assets/fonts/Roslindale-TextItalic-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FBA2D979B00846D6BDF24C1A /* Roslindale-TextMedium-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-TextMedium-Testing.woff"; path = "../assets/fonts/Roslindale-TextMedium-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9DDA4B71DAF446B9ECD6FDC /* Roslindale-TextMedium-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-TextMedium-Testing.woff2"; path = "../assets/fonts/Roslindale-TextMedium-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4037DCD88B3B48C09BB5EAA2 /* Roslindale-TextMediumItalic-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-TextMediumItalic-Testing.woff"; path = "../assets/fonts/Roslindale-TextMediumItalic-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3801D87164F94D0F9E4F8C25 /* Roslindale-TextMediumItalic-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-TextMediumItalic-Testing.woff2"; path = "../assets/fonts/Roslindale-TextMediumItalic-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9CC4E8077CEB4EC5AAB41E4A /* Roslindale-TextRegular-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-TextRegular-Testing.woff"; path = "../assets/fonts/Roslindale-TextRegular-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		139E84D739F34C35A5060731 /* Roslindale-TextRegular-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-TextRegular-Testing.woff2"; path = "../assets/fonts/Roslindale-TextRegular-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1F31DC966B58416A97281CC3 /* Roslindale-TextSemiBold-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-TextSemiBold-Testing.woff"; path = "../assets/fonts/Roslindale-TextSemiBold-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		84B1FA44CB244336B4ABC60F /* Roslindale-TextSemiBold-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-TextSemiBold-Testing.woff2"; path = "../assets/fonts/Roslindale-TextSemiBold-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7F7C7B3488F448F6BB054BA7 /* Roslindale-TextSemiBoldItalic-Testing.woff */ = {isa = PBXFileReference; name = "Roslindale-TextSemiBoldItalic-Testing.woff"; path = "../assets/fonts/Roslindale-TextSemiBoldItalic-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		031B53A3B23E47C8A52BAE8A /* Roslindale-TextSemiBoldItalic-Testing.woff2 */ = {isa = PBXFileReference; name = "Roslindale-TextSemiBoldItalic-Testing.woff2"; path = "../assets/fonts/Roslindale-TextSemiBoldItalic-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		524C84C85A22471E88E398B6 /* RoslindaleVariable-VF-Testing.woff */ = {isa = PBXFileReference; name = "RoslindaleVariable-VF-Testing.woff"; path = "../assets/fonts/RoslindaleVariable-VF-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5358A04AD8C2459AAC551EA1 /* RoslindaleVariable-VF-Testing.woff2 */ = {isa = PBXFileReference; name = "RoslindaleVariable-VF-Testing.woff2"; path = "../assets/fonts/RoslindaleVariable-VF-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F2B0A11E0B474305906C1E97 /* RoslindaleVariable-VF[Display]-Testing.woff */ = {isa = PBXFileReference; name = "RoslindaleVariable-VF[Display]-Testing.woff"; path = "../assets/fonts/RoslindaleVariable-VF[Display]-Testing.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		33AEA74EEEF24A7FA2DA4397 /* RoslindaleVariable-VF[Display]-Testing.woff2 */ = {isa = PBXFileReference; name = "RoslindaleVariable-VF[Display]-Testing.woff2"; path = "../assets/fonts/RoslindaleVariable-VF[Display]-Testing.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-Uplift-UpliftTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-Uplift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* UpliftTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* UpliftTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = UpliftTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Uplift */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = Uplift;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-Uplift.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-Uplift-UpliftTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Uplift */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* UpliftTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				40FA61BA300545BF89A8B171 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Uplift.app */,
+				00E356EE1AD99517003FC87E /* UpliftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-Uplift.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-Uplift.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-Uplift-UpliftTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-Uplift-UpliftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		40FA61BA300545BF89A8B171 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				B9796EA3A264449F82E38D2A /* a.otf */,
+				DA6D3CCFFF7A46C3B1B24D1F /* audiosans700.otf */,
+				10AEF7221DB04D2699DF8A0F /* bold.otf */,
+				81E711B0E47C43FA9344AE4D /* GeneralSans-Bold.otf */,
+				CD7A87F2B0584D1FA992511C /* GeneralSans-BoldItalic.otf */,
+				B3E4EDFC86E94E898A907834 /* GeneralSans-Italic.otf */,
+				5794F2A22E5F4B7C9DEB6A69 /* GeneralSans-Light.otf */,
+				BEEE1B8D047141F0BC29B92B /* GeneralSans-LightItalic.otf */,
+				7526E3AA65F34365B34D027B /* GeneralSans-Medium.otf */,
+				385509E43F5147C587BAC265 /* GeneralSans-Regular.otf */,
+				E737E7093BF241D28B4DD773 /* GeneralSans-SemiBold.otf */,
+				707C31FAE01D4B6689320450 /* Lora-Bold.otf */,
+				2CC64DD81E964556980709C4 /* Lora-Italic.otf */,
+				8A56F423922045D0B50B3F1E /* Lora-Medium.otf */,
+				CF8B4969D8954538AF9BED93 /* Lora-Regular.otf */,
+				09FF3BF8E7424C3A9D1B433A /* Lora-SemiBold.otf */,
+				66BE1718097746A499AF64CA /* Switzer-Black.otf */,
+				1B7A5952DEE54A41A978BE44 /* Switzer-BlackItalic.otf */,
+				4F7A922B985A4B8D9C3F157C /* Switzer-Bold.otf */,
+				596ADA233AF545978B7AEEAF /* Switzer-BoldItalic.otf */,
+				E7A3B8E1949C46F0840D36FC /* Switzer-Light.otf */,
+				DDFA781A58DC42AD9FBD68D4 /* Switzer-Medium.otf */,
+				5ED7E27692D14828B092C119 /* Switzer-MediumItalic.otf */,
+				2EF3737B0645472CBB648728 /* Switzer-Regular.otf */,
+				4786720791824DEBA689B26C /* Switzer-SemiBold.otf */,
+				48B7C10E549D47C5AAAB798D /* Switzer-Thin.otf */,
+				59BDF895685B47EC8F42EF7B /* Switzer-ThinItalic.otf */,
+				885624DEECD64763B1CC0941 /* Texgyreheros-Bold.otf */,
+				240BC4BDDACB477A920A98AE /* Texgyreheros-Italic.otf */,
+				7B722D87B02948E890966E36 /* Texgyreheros-Regular.otf */,
+				753B9402E3FA4140B594A53F /* Aladin-Regular.ttf */,
+				5132FC49C85841178C8493B4 /* Lato-Black.ttf */,
+				DF0DD19AE82B498CBB2C6D7F /* Lato-BlackItalic.ttf */,
+				97B58CF25A6D43B6AB29465B /* Lato-Bold.ttf */,
+				95DE8AA32C4E494E807798DC /* Lato-BoldItalic.ttf */,
+				4A7F062B6F264C66A917D70E /* Lato-Italic.ttf */,
+				172416FEEAAD4C32B938A903 /* Lato-Light.ttf */,
+				81035980F33A42D5AB844AA4 /* Lato-LightItalic.ttf */,
+				22C73127343A4104AC8DBCD8 /* Lato-Regular.ttf */,
+				636AF233430048EE92CD45BB /* Lato-SemiBold.ttf */,
+				F45562BF7A764E4BA10E8AC7 /* Lato-Thin.ttf */,
+				1C6C556B24F74CB6A5B12251 /* Lato-ThinItalic.ttf */,
+				EC5DDF793C2F4789896BAD8B /* Roboto-Black.ttf */,
+				10FE9AD7E65D4737959301EB /* Roboto-BlackItalic.ttf */,
+				521FE034CF5C484D8F9760C9 /* Roboto-Bold.ttf */,
+				8FCB596B065C43079043AC55 /* Roboto-BoldItalic.ttf */,
+				D3EAE111AC194A77AEC419F3 /* Roboto-Italic.ttf */,
+				4690E6B2F57E47C498058319 /* Roboto-Light.ttf */,
+				E01BA23077C6464AAA059E2C /* Roboto-LightItalic.ttf */,
+				4CD7E4EDA3684776B56867F6 /* Roboto-Medium.ttf */,
+				380EFD5FC94F4C19A0900084 /* Roboto-Regular.ttf */,
+				59563688A1F44EAE91B07388 /* Roboto-Thin.ttf */,
+				6D5A78B673F942EB84C433FC /* Roboto-ThinItalic.ttf */,
+				AB6FAA98587E4CA78EDE9287 /* Roslindale-DeckNarrowBold-Testing.woff */,
+				323A306CEBCC4A6FA4C5A417 /* Roslindale-DeckNarrowBold-Testing.woff2 */,
+				74C1ED8582B4477C8B2042E3 /* Roslindale-DeckNarrowBoldItalic-Testing.woff */,
+				272B6741999A4F9D9FCCB372 /* Roslindale-DeckNarrowBoldItalic-Testing.woff2 */,
+				7F80176D43EA4207872BCD98 /* Roslindale-DeckNarrowItalic-Testing.woff */,
+				84B95D990BBD429798078FE4 /* Roslindale-DeckNarrowItalic-Testing.woff2 */,
+				1A40AE266B4F42C0950AB42A /* Roslindale-DeckNarrowMedium-Testing.woff */,
+				79691EE9D3C0459EB66A3EE2 /* Roslindale-DeckNarrowMedium-Testing.woff2 */,
+				B7113D586FD94E87AB4AE864 /* Roslindale-DeckNarrowMediumItalic-Testing.woff */,
+				3E60C7D3D1224DB6B7A0D395 /* Roslindale-DeckNarrowMediumItalic-Testing.woff2 */,
+				677346B8017A4D978DB005B5 /* Roslindale-DeckNarrowRegular-Testing.woff */,
+				FC9670674E8B4EEEA7DEB335 /* Roslindale-DeckNarrowRegular-Testing.woff2 */,
+				FD785119BA4746D8AA29C8BE /* Roslindale-DeckNarrowSemiBold-Testing.woff */,
+				E9A59CC2AD8E4336B6E4F92B /* Roslindale-DeckNarrowSemiBold-Testing.woff2 */,
+				FB0E909944E8457E802FA570 /* Roslindale-DeckNarrowSemiBoldItalic-Testing.woff */,
+				AA63023F148A4BDBB71721CE /* Roslindale-DeckNarrowSemiBoldItalic-Testing.woff2 */,
+				AF92C3C502F44C6AAC46F3B9 /* Roslindale-DisplayBlack-Testing.woff */,
+				B732A07866D545F58457B5CF /* Roslindale-DisplayBlack-Testing.woff2 */,
+				AA710DCBCB9E476DB405D5BD /* Roslindale-DisplayBold-Testing.woff */,
+				524EABCD77E441B3A2EB0DB0 /* Roslindale-DisplayBold-Testing.woff2 */,
+				6CBB61B8866046DAA9641034 /* Roslindale-DisplayCondensedBlack-Testing.woff */,
+				C29B012418F142E09A6D5F13 /* Roslindale-DisplayCondensedBlack-Testing.woff2 */,
+				AABF176374954AD3A85B34EA /* Roslindale-DisplayCondensedBold-Testing.woff */,
+				C7EEF5B39E214E17BB80C091 /* Roslindale-DisplayCondensedBold-Testing.woff2 */,
+				C519A4FFBAB2401A90878245 /* Roslindale-DisplayCondensedBoldItalic-Testing.woff */,
+				37CAC3AC3297448981FCE54E /* Roslindale-DisplayCondensedBoldItalic-Testing.woff2 */,
+				1E503CDE072F4D968E4A2C3C /* Roslindale-DisplayCondensedExtraLight-Testing.woff */,
+				83881D465CDD4A7489342B80 /* Roslindale-DisplayCondensedExtraLight-Testing.woff2 */,
+				D4035F43F7654A5F9DD71581 /* Roslindale-DisplayCondensedExtraLightItalic-Testing.woff */,
+				C17A385042A444CCBF0CCB76 /* Roslindale-DisplayCondensedExtraLightItalic-Testing.woff2 */,
+				FF0FEC36FFD949228991A879 /* Roslindale-DisplayCondensedItalic-Testing.woff */,
+				E67A5B940B6A4802ABA4B720 /* Roslindale-DisplayCondensedItalic-Testing.woff2 */,
+				7B242685F4B84A98B34BCFC4 /* Roslindale-DisplayCondensedLight-Testing.woff */,
+				BB2AD5D382ED48209925EEEB /* Roslindale-DisplayCondensedLight-Testing.woff2 */,
+				87C49406B51D407FB9A507BA /* Roslindale-DisplayCondensedLightItalic-Testing.woff */,
+				B234BB796A5D491D84458BCD /* Roslindale-DisplayCondensedLightItalic-Testing.woff2 */,
+				C16EE6349F024292AF3A3018 /* Roslindale-DisplayCondensedMedium-Testing.woff */,
+				CC8E3D9CD29F4F8A955CE10C /* Roslindale-DisplayCondensedMedium-Testing.woff2 */,
+				B08198CBF07A4912B5EF405E /* Roslindale-DisplayCondensedMediumItalic-Testing.woff */,
+				A9EE4BB9CA58473CA7D77B4D /* Roslindale-DisplayCondensedMediumItalic-Testing.woff2 */,
+				89630AE35FCC4EE499E4BCB8 /* Roslindale-DisplayCondensedRegular-Testing.woff */,
+				DB57BC3614D8410F8EFB4066 /* Roslindale-DisplayCondensedRegular-Testing.woff2 */,
+				0F3F883EB1F64C6C808AB573 /* Roslindale-DisplayCondensedSemiBold-Testing.woff */,
+				54800FA3F7B14B00BCC2EBF0 /* Roslindale-DisplayCondensedSemiBold-Testing.woff2 */,
+				3690D1B370CD4454834803AC /* Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff */,
+				7B713282B4504561B500BC47 /* Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff2 */,
+				5084CF10A89B4759948473A8 /* Roslindale-DisplayCondensedUltra-Testing.woff */,
+				8F4FE675C6D04D2086C98C12 /* Roslindale-DisplayCondensedUltra-Testing.woff2 */,
+				5AE3E96F19C14E279402BE6D /* Roslindale-DisplayExtraLight-Testing.woff */,
+				EB2A25B2D0A847D580449D08 /* Roslindale-DisplayExtraLight-Testing.woff2 */,
+				F29D49CD6FA248E299FC0E54 /* Roslindale-DisplayLight-Testing.woff */,
+				0189B81245D24DAABC401F81 /* Roslindale-DisplayLight-Testing.woff2 */,
+				F8BE51A8472B4560BFF9D7B2 /* Roslindale-DisplayMedium-Testing.woff */,
+				374EF4D31B594AFCA2ABED31 /* Roslindale-DisplayMedium-Testing.woff2 */,
+				73B1147990484C20A2B19F74 /* Roslindale-DisplayNarrowBlack-Testing.woff */,
+				3F75A89134254C54AF05BCAA /* Roslindale-DisplayNarrowBlack-Testing.woff2 */,
+				8A43C322074C4A25AF51336B /* Roslindale-DisplayNarrowBold-Testing.woff */,
+				8883F60EE7A14127A41E640E /* Roslindale-DisplayNarrowBold-Testing.woff2 */,
+				49735B563C91443993E18B9C /* Roslindale-DisplayNarrowExtraLight-Testing.woff */,
+				4E29DDDA3FFA4E6BB90E1C9D /* Roslindale-DisplayNarrowExtraLight-Testing.woff2 */,
+				BE53625D970F4D75BE8B4320 /* Roslindale-DisplayNarrowLight-Testing.woff */,
+				54987E6292524BE98E4B50F5 /* Roslindale-DisplayNarrowLight-Testing.woff2 */,
+				FC770884C52C4F6B8CADD6E2 /* Roslindale-DisplayNarrowMedium-Testing.woff */,
+				A701EE90675D417E8D8D5AD0 /* Roslindale-DisplayNarrowMedium-Testing.woff2 */,
+				8009884085CE4A479EFDD56F /* Roslindale-DisplayNarrowRegular-Testing.woff */,
+				C3EB66B0A22B47679F6905FC /* Roslindale-DisplayNarrowRegular-Testing.woff2 */,
+				6B521977DA104E8390E3F330 /* Roslindale-DisplayNarrowSemiBold-Testing.woff */,
+				A8872A69727441179C69688B /* Roslindale-DisplayNarrowSemiBold-Testing.woff2 */,
+				2B9BC787A47E49B2B8ADB97E /* Roslindale-DisplayNarrowUltra-Testing.woff */,
+				A7693D047CA34066B2B1C593 /* Roslindale-DisplayNarrowUltra-Testing.woff2 */,
+				A2BE104B48074E43862F0A41 /* Roslindale-DisplayRegular-Testing.woff */,
+				A22E798842084F8986675FA7 /* Roslindale-DisplayRegular-Testing.woff2 */,
+				FC160237D0CB49E3A3A99616 /* Roslindale-DisplaySemiBold-Testing.woff */,
+				4FF0A6DB1F3B4BF7B0A59FEF /* Roslindale-DisplaySemiBold-Testing.woff2 */,
+				C04396F64B82442CA2804E54 /* Roslindale-DisplayUltra-Testing.woff */,
+				9A7C7529B0D64851A6A70AE1 /* Roslindale-DisplayUltra-Testing.woff2 */,
+				9089055FCDB44C11B21FF613 /* Roslindale-TextBold-Testing.woff */,
+				CDE49794437D4C45A72EF2C0 /* Roslindale-TextBold-Testing.woff2 */,
+				64596B0BE67B46B6932A4FFB /* Roslindale-TextBoldItalic-Testing.woff */,
+				510B04F9C36043448FE8AA99 /* Roslindale-TextBoldItalic-Testing.woff2 */,
+				5B758B3607A64F338FA38053 /* Roslindale-TextItalic-Testing.woff */,
+				A874004B8E3345D1A69F477A /* Roslindale-TextItalic-Testing.woff2 */,
+				FBA2D979B00846D6BDF24C1A /* Roslindale-TextMedium-Testing.woff */,
+				D9DDA4B71DAF446B9ECD6FDC /* Roslindale-TextMedium-Testing.woff2 */,
+				4037DCD88B3B48C09BB5EAA2 /* Roslindale-TextMediumItalic-Testing.woff */,
+				3801D87164F94D0F9E4F8C25 /* Roslindale-TextMediumItalic-Testing.woff2 */,
+				9CC4E8077CEB4EC5AAB41E4A /* Roslindale-TextRegular-Testing.woff */,
+				139E84D739F34C35A5060731 /* Roslindale-TextRegular-Testing.woff2 */,
+				1F31DC966B58416A97281CC3 /* Roslindale-TextSemiBold-Testing.woff */,
+				84B1FA44CB244336B4ABC60F /* Roslindale-TextSemiBold-Testing.woff2 */,
+				7F7C7B3488F448F6BB054BA7 /* Roslindale-TextSemiBoldItalic-Testing.woff */,
+				031B53A3B23E47C8A52BAE8A /* Roslindale-TextSemiBoldItalic-Testing.woff2 */,
+				524C84C85A22471E88E398B6 /* RoslindaleVariable-VF-Testing.woff */,
+				5358A04AD8C2459AAC551EA1 /* RoslindaleVariable-VF-Testing.woff2 */,
+				F2B0A11E0B474305906C1E97 /* RoslindaleVariable-VF[Display]-Testing.woff */,
+				33AEA74EEEF24A7FA2DA4397 /* RoslindaleVariable-VF[Display]-Testing.woff2 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* UpliftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "UpliftTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = UpliftTests;
+			productName = UpliftTests;
+			productReference = 00E356EE1AD99517003FC87E /* UpliftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Uplift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Uplift" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Uplift;
+			productName = Uplift;
+			productReference = 13B07F961A680F5B00A75B9A /* Uplift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Uplift" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Uplift */,
+				00E356ED1AD99517003FC87E /* UpliftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0CD60D58793145E288E8C760 /* a.otf in Resources */,
+				E7BC62E4BEA242F09BBFB594 /* audiosans700.otf in Resources */,
+				03F2BC10BC434E51B5486BD7 /* bold.otf in Resources */,
+				62D53D6A20E14F1881C06C9A /* GeneralSans-Bold.otf in Resources */,
+				C780991CFD3A489FBC9A0C16 /* GeneralSans-BoldItalic.otf in Resources */,
+				EF4493601AE0416697A78A50 /* GeneralSans-Italic.otf in Resources */,
+				C888C841FC1F4E0984CA46BF /* GeneralSans-Light.otf in Resources */,
+				85C79493459F4DDBB81FA64E /* GeneralSans-LightItalic.otf in Resources */,
+				A7B0E32B6C924F09A593D874 /* GeneralSans-Medium.otf in Resources */,
+				0842B6815FC74B398BA93323 /* GeneralSans-Regular.otf in Resources */,
+				885FCC2160004AF297DBF449 /* GeneralSans-SemiBold.otf in Resources */,
+				6B4DBA36C3564F859E5C5A5F /* Lora-Bold.otf in Resources */,
+				1FF6751B457043C2A8F35DAA /* Lora-Italic.otf in Resources */,
+				6A670B06BC09444DAD02C0BE /* Lora-Medium.otf in Resources */,
+				729C50C185AA49FFB24B6382 /* Lora-Regular.otf in Resources */,
+				A1220D4B51F244CE91253AE0 /* Lora-SemiBold.otf in Resources */,
+				80C6C898977E4D2E8FBDDD67 /* Switzer-Black.otf in Resources */,
+				B1E74A66F17D4653A66DCFD4 /* Switzer-BlackItalic.otf in Resources */,
+				324ACF69316F46718BBB8A97 /* Switzer-Bold.otf in Resources */,
+				49150EDF51FF44B8BC6BE003 /* Switzer-BoldItalic.otf in Resources */,
+				476FA75136CB4B1F959EDCA7 /* Switzer-Light.otf in Resources */,
+				103175523D384FB0A19AE243 /* Switzer-Medium.otf in Resources */,
+				CE151B0F92F544A6947E7631 /* Switzer-MediumItalic.otf in Resources */,
+				CD0FB64E032F4C73AEB2212B /* Switzer-Regular.otf in Resources */,
+				D9B38F07BEC140CDB40511B0 /* Switzer-SemiBold.otf in Resources */,
+				33799C9F63AE46F39936316C /* Switzer-Thin.otf in Resources */,
+				FACB60490B67400EAFBAF97D /* Switzer-ThinItalic.otf in Resources */,
+				B698E9266DAE43AAB117383E /* Texgyreheros-Bold.otf in Resources */,
+				03B013C6016C4316846597C2 /* Texgyreheros-Italic.otf in Resources */,
+				EE5DA6F03CF446A2B3A224B2 /* Texgyreheros-Regular.otf in Resources */,
+				3AB2498B6A7040CFA6FECA77 /* Aladin-Regular.ttf in Resources */,
+				287893EC993747EBB2C54188 /* Lato-Black.ttf in Resources */,
+				64BDBA73972B46EFB2178776 /* Lato-BlackItalic.ttf in Resources */,
+				E648732DD900416B95BA296E /* Lato-Bold.ttf in Resources */,
+				0A50EA354A2C4B00B9672544 /* Lato-BoldItalic.ttf in Resources */,
+				B3EB83A4235047BEAE6EF97F /* Lato-Italic.ttf in Resources */,
+				4700B3F3F1CC489EB6403E6F /* Lato-Light.ttf in Resources */,
+				14ECC714B56E410889DF8F04 /* Lato-LightItalic.ttf in Resources */,
+				D0B38E17B3244AE287A05D71 /* Lato-Regular.ttf in Resources */,
+				E6B482E09D084EE09425D99A /* Lato-SemiBold.ttf in Resources */,
+				6D85680BAEDF4DCF894154B9 /* Lato-Thin.ttf in Resources */,
+				63C88E83F4D440B5970BFE74 /* Lato-ThinItalic.ttf in Resources */,
+				A0B314EDA980413894EEED5A /* Roboto-Black.ttf in Resources */,
+				EECA53BC704F4F4E813DEEE2 /* Roboto-BlackItalic.ttf in Resources */,
+				9AD8F306DD5B4E57934D917F /* Roboto-Bold.ttf in Resources */,
+				7405CFB19BA946439C876ED8 /* Roboto-BoldItalic.ttf in Resources */,
+				079BE5B2B52543868FBA5C60 /* Roboto-Italic.ttf in Resources */,
+				A3259E6CD59645F785485D70 /* Roboto-Light.ttf in Resources */,
+				69D8FBB70B94469EA1CC4618 /* Roboto-LightItalic.ttf in Resources */,
+				2651D4AB33EE49F5A384F644 /* Roboto-Medium.ttf in Resources */,
+				1B907C0A5ACB4400BC69FB39 /* Roboto-Regular.ttf in Resources */,
+				CBADC2DA773243B8BE8AA5F4 /* Roboto-Thin.ttf in Resources */,
+				65EAF70B36454F9B869C7A3D /* Roboto-ThinItalic.ttf in Resources */,
+				B897D86EFFEB4C94BD1BF6B1 /* Roslindale-DeckNarrowBold-Testing.woff in Resources */,
+				CA256A855AA5416EA378E81C /* Roslindale-DeckNarrowBold-Testing.woff2 in Resources */,
+				9AE1185758004A57BA9D0FAA /* Roslindale-DeckNarrowBoldItalic-Testing.woff in Resources */,
+				F80DEDF6C2254213B20FA4AF /* Roslindale-DeckNarrowBoldItalic-Testing.woff2 in Resources */,
+				4BA0214A3B1C4AD1BE7DFDB8 /* Roslindale-DeckNarrowItalic-Testing.woff in Resources */,
+				DD2057EFC11544C3A4782A00 /* Roslindale-DeckNarrowItalic-Testing.woff2 in Resources */,
+				9118AFCD53C642D59E7397D9 /* Roslindale-DeckNarrowMedium-Testing.woff in Resources */,
+				BA6F2F4614064E74986265F8 /* Roslindale-DeckNarrowMedium-Testing.woff2 in Resources */,
+				CC6101874CD24CCAAE9F83E3 /* Roslindale-DeckNarrowMediumItalic-Testing.woff in Resources */,
+				A977FD5E2EC042788D57F6BB /* Roslindale-DeckNarrowMediumItalic-Testing.woff2 in Resources */,
+				3BAD6B53786D44389D1CA358 /* Roslindale-DeckNarrowRegular-Testing.woff in Resources */,
+				615CF3FD2C4342E8A7F4E61C /* Roslindale-DeckNarrowRegular-Testing.woff2 in Resources */,
+				1764D1C2802C49BBA4039182 /* Roslindale-DeckNarrowSemiBold-Testing.woff in Resources */,
+				67B5D91BCB6742D19B9934B5 /* Roslindale-DeckNarrowSemiBold-Testing.woff2 in Resources */,
+				CECD75897DFC46F19F5D6B35 /* Roslindale-DeckNarrowSemiBoldItalic-Testing.woff in Resources */,
+				1A5467F9CA5C4A9FAD1697E6 /* Roslindale-DeckNarrowSemiBoldItalic-Testing.woff2 in Resources */,
+				924A52E4787D4599B6FAFDF8 /* Roslindale-DisplayBlack-Testing.woff in Resources */,
+				75ABDCAE6EDF426787961798 /* Roslindale-DisplayBlack-Testing.woff2 in Resources */,
+				6EC60EFBFE134D34A8B2B709 /* Roslindale-DisplayBold-Testing.woff in Resources */,
+				CEEFA1C9F63F44E68DFF6A4D /* Roslindale-DisplayBold-Testing.woff2 in Resources */,
+				A5ECCE2A38A849AD98798B6D /* Roslindale-DisplayCondensedBlack-Testing.woff in Resources */,
+				22EB0111131148459508A040 /* Roslindale-DisplayCondensedBlack-Testing.woff2 in Resources */,
+				63326A14E98D47CEB3A83FE8 /* Roslindale-DisplayCondensedBold-Testing.woff in Resources */,
+				FAE9D0BB2D664F489631330D /* Roslindale-DisplayCondensedBold-Testing.woff2 in Resources */,
+				7CBAE3403B374EAFAB41CC9B /* Roslindale-DisplayCondensedBoldItalic-Testing.woff in Resources */,
+				C6E5BA86D3024E7F88EF6B6E /* Roslindale-DisplayCondensedBoldItalic-Testing.woff2 in Resources */,
+				38DBF596A9674384A1C321C8 /* Roslindale-DisplayCondensedExtraLight-Testing.woff in Resources */,
+				87D63F712BF84A5B863E159C /* Roslindale-DisplayCondensedExtraLight-Testing.woff2 in Resources */,
+				8F122A9968474325B41D903F /* Roslindale-DisplayCondensedExtraLightItalic-Testing.woff in Resources */,
+				884EA6A38792411480A11F78 /* Roslindale-DisplayCondensedExtraLightItalic-Testing.woff2 in Resources */,
+				73ACD05D9B1A41A0B182B24C /* Roslindale-DisplayCondensedItalic-Testing.woff in Resources */,
+				4EA8A147CCC942FA972358C7 /* Roslindale-DisplayCondensedItalic-Testing.woff2 in Resources */,
+				499E7C6EE5F24285A09BC7E1 /* Roslindale-DisplayCondensedLight-Testing.woff in Resources */,
+				ACE8330A05C24C2AB3A125A4 /* Roslindale-DisplayCondensedLight-Testing.woff2 in Resources */,
+				24EAFE4E004E44FB90562400 /* Roslindale-DisplayCondensedLightItalic-Testing.woff in Resources */,
+				67CD6ECBF0604C9EA48EF6E7 /* Roslindale-DisplayCondensedLightItalic-Testing.woff2 in Resources */,
+				5221583FFE414B9BA45266BE /* Roslindale-DisplayCondensedMedium-Testing.woff in Resources */,
+				BF2F9E0DB37948E58C650615 /* Roslindale-DisplayCondensedMedium-Testing.woff2 in Resources */,
+				EE542D27954B4961B463F1BB /* Roslindale-DisplayCondensedMediumItalic-Testing.woff in Resources */,
+				4C21D853A5EB4D309C894465 /* Roslindale-DisplayCondensedMediumItalic-Testing.woff2 in Resources */,
+				E9037AD0A40742A6A97EBE91 /* Roslindale-DisplayCondensedRegular-Testing.woff in Resources */,
+				A6255436BB804C68BA92164B /* Roslindale-DisplayCondensedRegular-Testing.woff2 in Resources */,
+				F0CEE23168084C1996EF988F /* Roslindale-DisplayCondensedSemiBold-Testing.woff in Resources */,
+				1BC054ABB9D248F9AA74A2BD /* Roslindale-DisplayCondensedSemiBold-Testing.woff2 in Resources */,
+				A3519A89C621438689751581 /* Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff in Resources */,
+				8BC62F0D937A4F8C898D17F5 /* Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff2 in Resources */,
+				F9C2599C43C14AC7ACB2E035 /* Roslindale-DisplayCondensedUltra-Testing.woff in Resources */,
+				48745133163640BB8EA5AC57 /* Roslindale-DisplayCondensedUltra-Testing.woff2 in Resources */,
+				2BB8505E39CD4339B26EA262 /* Roslindale-DisplayExtraLight-Testing.woff in Resources */,
+				97F91E9E865E4A53AC99DB2A /* Roslindale-DisplayExtraLight-Testing.woff2 in Resources */,
+				FEDC211F192349079530152C /* Roslindale-DisplayLight-Testing.woff in Resources */,
+				F051D96D70574A4F8FC5876F /* Roslindale-DisplayLight-Testing.woff2 in Resources */,
+				560A9EB7EA834DB8859A69D9 /* Roslindale-DisplayMedium-Testing.woff in Resources */,
+				B4FBFF3D67B348FF91ACFC35 /* Roslindale-DisplayMedium-Testing.woff2 in Resources */,
+				B555B22D76334A5C88EDC8BD /* Roslindale-DisplayNarrowBlack-Testing.woff in Resources */,
+				AFEF57CD85844EE99BBA4763 /* Roslindale-DisplayNarrowBlack-Testing.woff2 in Resources */,
+				633220FC82EF4123AE8F03B9 /* Roslindale-DisplayNarrowBold-Testing.woff in Resources */,
+				068A5E4F14F3413EA9FB55DB /* Roslindale-DisplayNarrowBold-Testing.woff2 in Resources */,
+				4F80F53ED597491698E69962 /* Roslindale-DisplayNarrowExtraLight-Testing.woff in Resources */,
+				4062ED2D060741D394B149EC /* Roslindale-DisplayNarrowExtraLight-Testing.woff2 in Resources */,
+				F012893118EF4BEEA7B494B5 /* Roslindale-DisplayNarrowLight-Testing.woff in Resources */,
+				50008BDD60C44D95A8CFA464 /* Roslindale-DisplayNarrowLight-Testing.woff2 in Resources */,
+				E633F5566DD349BAB9B3890B /* Roslindale-DisplayNarrowMedium-Testing.woff in Resources */,
+				8E6A9D07A5EB4CF9A001A40C /* Roslindale-DisplayNarrowMedium-Testing.woff2 in Resources */,
+				FD067680AD7F4CF9BD934514 /* Roslindale-DisplayNarrowRegular-Testing.woff in Resources */,
+				ED1A65D951DF4EAD8030F9AD /* Roslindale-DisplayNarrowRegular-Testing.woff2 in Resources */,
+				A51A7C8F7581476D9E00914A /* Roslindale-DisplayNarrowSemiBold-Testing.woff in Resources */,
+				EF7A60F1DD974A588CD0E8D0 /* Roslindale-DisplayNarrowSemiBold-Testing.woff2 in Resources */,
+				DC7B0B5730C3457DB32AB727 /* Roslindale-DisplayNarrowUltra-Testing.woff in Resources */,
+				E6D9E7A8209B4062A3484B61 /* Roslindale-DisplayNarrowUltra-Testing.woff2 in Resources */,
+				E14CA7F7E2434BF09EF813AF /* Roslindale-DisplayRegular-Testing.woff in Resources */,
+				5E2FD7C845BB4CCABAF1B94D /* Roslindale-DisplayRegular-Testing.woff2 in Resources */,
+				42FCB91FF7CE4082BB04D9C6 /* Roslindale-DisplaySemiBold-Testing.woff in Resources */,
+				B771040AE6AC4743B95A56DD /* Roslindale-DisplaySemiBold-Testing.woff2 in Resources */,
+				299D84E3123544ACBD75CA19 /* Roslindale-DisplayUltra-Testing.woff in Resources */,
+				055CFAE3EE1B4C57A2053CC1 /* Roslindale-DisplayUltra-Testing.woff2 in Resources */,
+				5F6621F62A3144EE900AF647 /* Roslindale-TextBold-Testing.woff in Resources */,
+				0C96E3CD99384C9DAAB239D8 /* Roslindale-TextBold-Testing.woff2 in Resources */,
+				C16ECB343A7945EE96881D00 /* Roslindale-TextBoldItalic-Testing.woff in Resources */,
+				261CDFCE302E4DC7A1A17E4A /* Roslindale-TextBoldItalic-Testing.woff2 in Resources */,
+				3AA483E29C5B41A2A282601F /* Roslindale-TextItalic-Testing.woff in Resources */,
+				036B0EB05D4E4986BCEB6259 /* Roslindale-TextItalic-Testing.woff2 in Resources */,
+				C00F52A2D1914BD493F3DB51 /* Roslindale-TextMedium-Testing.woff in Resources */,
+				6D75A63BF07843EC994C7EC5 /* Roslindale-TextMedium-Testing.woff2 in Resources */,
+				ED8246B26C2C41FB8A98636C /* Roslindale-TextMediumItalic-Testing.woff in Resources */,
+				5F06BF23E3FB43E1BF31EEDB /* Roslindale-TextMediumItalic-Testing.woff2 in Resources */,
+				6ABD7160D8E94656BCC1D7BA /* Roslindale-TextRegular-Testing.woff in Resources */,
+				2349F1BFF2DF442EA328AC17 /* Roslindale-TextRegular-Testing.woff2 in Resources */,
+				C22BCA2778F24D80882F17A5 /* Roslindale-TextSemiBold-Testing.woff in Resources */,
+				E6D7679D19D04FFAB838EEC4 /* Roslindale-TextSemiBold-Testing.woff2 in Resources */,
+				F078F9D8B90B46C28D59E2F4 /* Roslindale-TextSemiBoldItalic-Testing.woff in Resources */,
+				A0FCD572A4AE412D9467F829 /* Roslindale-TextSemiBoldItalic-Testing.woff2 in Resources */,
+				A5B076A63D3D43598ECA81FF /* RoslindaleVariable-VF-Testing.woff in Resources */,
+				F8F3D6BDABF74356A65F7F15 /* RoslindaleVariable-VF-Testing.woff2 in Resources */,
+				0F9E287657DB48FEA5A9E6F7 /* RoslindaleVariable-VF[Display]-Testing.woff in Resources */,
+				C6102A8238EC4233AC64A43C /* RoslindaleVariable-VF[Display]-Testing.woff2 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uplift/Pods-Uplift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uplift/Pods-Uplift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Uplift/Pods-Uplift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Uplift-UpliftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Uplift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uplift-UpliftTests/Pods-Uplift-UpliftTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uplift-UpliftTests/Pods-Uplift-UpliftTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Uplift-UpliftTests/Pods-Uplift-UpliftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uplift/Pods-Uplift-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uplift/Pods-Uplift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Uplift/Pods-Uplift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uplift-UpliftTests/Pods-Uplift-UpliftTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uplift-UpliftTests/Pods-Uplift-UpliftTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Uplift-UpliftTests/Pods-Uplift-UpliftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* UpliftTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Uplift */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-Uplift-UpliftTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UpliftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uplift.app/Uplift";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-Uplift-UpliftTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = UpliftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uplift.app/Uplift";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-Uplift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Uplift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Uplift;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-Uplift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Uplift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Uplift;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "UpliftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Uplift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Uplift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
